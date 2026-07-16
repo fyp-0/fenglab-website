@@ -4,7 +4,7 @@
     "href": "index.html",
     "title": "FengLab",
     "section": "",
-    "text": "The FengLab combines single-cell multi-omics, high-dimensional proteomics, computational biology, and translational research to investigate how human immune systems develop, respond to infection, and change across the lifespan.\nExplore our research Meet the team\n\n\n\n\nWe use integrated transcriptomic, epigenomic, proteomic, and immune-receptor measurements to characterize complex immune responses.\n\n\n\nWe study immune variation across individuals, developmental stages, clinical cohorts, and disease states.\n\n\n\nWe investigate immune responses to infection, vaccination, and preventive interventions.\n\n\n\n\nNews and laboratory updates will appear here.\n\n\n\nSelected publications will appear here."
+    "text": "Systems immunology · Single-cell science · Human health\n\n\n\nWe combine single-cell multi-omics, high-dimensional proteomics, computational biology, and translational research to understand how immune systems develop, respond to infection, and change across the lifespan.\n\nExplore our research → Meet the team\n\n\n\n\n\n::: {.orbit orbit-one}\n\n::: {.orbit orbit-two}\n\n::: {.orbit orbit-three}\n::: {.cell cell-one} ::: ::: {.cell cell-two} ::: ::: {.cell cell-three} ::: ::: {.cell cell-four} ::: ::: ::: :::"
   },
   {
     "objectID": "index.html#research-areas",
@@ -152,5 +152,33 @@
     "title": "People",
     "section": "Alumni",
     "text": "Alumni\nFormer lab members will be listed here."
+  },
+  {
+    "objectID": "index.html#from-molecular-detail-to-human-health",
+    "href": "index.html#from-molecular-detail-to-human-health",
+    "title": "FengLab",
+    "section": "From molecular detail to human health",
+    "text": "From molecular detail to human health\n\nThe immune system is dynamic, deeply individual, and shaped over a lifetime. We connect measurements across biological scales to reveal the principles behind that complexity.\n\n\n\n\n01\n\n\nSingle-cell multi-omics\nWe integrate transcriptomic, epigenomic, proteomic, and immune-receptor measurements to characterize complex immune responses.\n\n\n\n\n02\n\n\nHuman immunology\nWe study immune variation across individuals, developmental stages, clinical cohorts, and disease states.\n\n\n\n\n03\n\n\nInfection & prevention\nWe investigate immune responses to infection, vaccination, and preventive interventions."
+  },
+  {
+    "objectID": "index.html#better-maps-of-immunity-can-lead-to-better-medicine.",
+    "href": "index.html#better-maps-of-immunity-can-lead-to-better-medicine.",
+    "title": "FengLab",
+    "section": "Better maps of immunity can lead to better medicine.",
+    "text": "Better maps of immunity can lead to better medicine.\nBy pairing rich human datasets with rigorous computation, we aim to discover biological patterns that can inform prediction, prevention, and treatment."
+  },
+  {
+    "objectID": "index.html#follow-our-latest-work",
+    "href": "index.html#follow-our-latest-work",
+    "title": "FengLab",
+    "section": "Follow our latest work",
+    "text": "Follow our latest work\nRead about new studies, laboratory milestones, and other updates from the FengLab.\nView lab news →"
+  },
+  {
+    "objectID": "index.html#do-your-best-work-with-us",
+    "href": "index.html#do-your-best-work-with-us",
+    "title": "FengLab",
+    "section": "Do your best work with us",
+    "text": "Do your best work with us\nWe welcome curious, collaborative researchers who want to advance our understanding of human immunity.\nExplore opportunities →"
   }
 ]

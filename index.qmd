@@ -1,34 +1,132 @@
 ---
 title: "FengLab"
+description: "Studying human immunity across age, infection, and disease through systems immunology and translational research."
 page-layout: full
 toc: false
+body-classes: home-page
 ---
 
-# Understanding human immunity across age, infection, and disease
+::: {.home-hero}
+::: {.hero-glow aria-hidden="true"}
+:::
 
-The FengLab combines single-cell multi-omics, high-dimensional proteomics, computational biology, and translational research to investigate how human immune systems develop, respond to infection, and change across the lifespan.
+::: {.hero-content}
+::: {.eyebrow}
+Systems immunology · Single-cell science · Human health
+:::
 
-[Explore our research](research.qmd){.btn .btn-primary}
-[Meet the team](people.qmd){.btn .btn-outline-primary}
+# Decoding human immunity, one cell at a time.
 
-## Research areas
+We combine single-cell multi-omics, high-dimensional proteomics, computational biology, and translational research to understand how immune systems develop, respond to infection, and change across the lifespan.
+
+::: {.hero-actions}
+[Explore our research →](research.qmd){.btn .btn-primary .btn-lg}
+[Meet the team](people.qmd){.btn .btn-outline-light .btn-lg}
+:::
+:::
+
+::: {.hero-aside}
+::: {.orbit-mark aria-hidden="true"}
+::: {.orbit orbit-one}
+:::
+::: {.orbit orbit-two}
+:::
+::: {.orbit orbit-three}
+:::
+::: {.cell cell-one}
+:::
+::: {.cell cell-two}
+:::
+::: {.cell cell-three}
+:::
+::: {.cell cell-four}
+:::
+:::
+:::
+:::
+
+::: {.home-section .intro-section}
+::: {.section-kicker}
+Our approach
+:::
+
+## From molecular detail to human health
+
+::: {.section-intro}
+The immune system is dynamic, deeply individual, and shaped over a lifetime. We connect measurements across biological scales to reveal the principles behind that complexity.
+:::
+
+::: {.feature-grid}
+::: {.feature-card}
+::: {.feature-number}
+01
+:::
 
 ### Single-cell multi-omics
 
-We use integrated transcriptomic, epigenomic, proteomic, and immune-receptor measurements to characterize complex immune responses.
+We integrate transcriptomic, epigenomic, proteomic, and immune-receptor measurements to characterize complex immune responses.
+:::
+
+::: {.feature-card}
+::: {.feature-number}
+02
+:::
 
 ### Human immunology
 
 We study immune variation across individuals, developmental stages, clinical cohorts, and disease states.
+:::
 
-### Infection and prevention
+::: {.feature-card}
+::: {.feature-number}
+03
+:::
+
+### Infection & prevention
 
 We investigate immune responses to infection, vaccination, and preventive interventions.
+:::
+:::
+:::
 
-## Latest news
+::: {.home-section .mission-band}
+::: {.mission-copy}
+::: {.section-kicker}
+Why it matters
+:::
 
-News and laboratory updates will appear here.
+## Better maps of immunity can lead to better medicine.
 
-## Selected publications
+By pairing rich human datasets with rigorous computation, we aim to discover biological patterns that can inform prediction, prevention, and treatment.
+:::
 
-Selected publications will appear here.
+::: {.mission-link}
+[Discover our research programs →](research.qmd)
+:::
+:::
+
+::: {.home-section .updates-section}
+::: {.updates-card}
+::: {.section-kicker}
+From the lab
+:::
+
+## Follow our latest work
+
+Read about new studies, laboratory milestones, and other updates from the FengLab.
+
+[View lab news →](news.qmd){.text-link}
+:::
+
+::: {.updates-card .updates-card-accent}
+::: {.section-kicker}
+Join us
+:::
+
+## Do your best work with us
+
+We welcome curious, collaborative researchers who want to advance our understanding of human immunity.
+
+[Explore opportunities →](join.qmd){.text-link}
+:::
+:::
