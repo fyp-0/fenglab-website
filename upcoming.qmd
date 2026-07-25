@@ -1,0 +1,12 @@
+---
+title: "Upcoming"
+description: "Upcoming Feng Lab seminars, meetings, presentations, and events."
+---
+
+## Upcoming events
+
+Seminars, conference presentations, laboratory meetings, workshops, and other upcoming Feng Lab activities will be listed here.
+
+## Invite the lab
+
+For speaking invitations, scientific meetings, or collaborative events, please visit the [Contact](contact.qmd) page.

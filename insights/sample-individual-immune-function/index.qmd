@@ -1,0 +1,42 @@
+---
+title: "What Would It Mean to Discover an Individual Immune Function?"
+date: "2026-07-25"
+categories:
+  - Research Philosophy
+description: "Sample content: an outline for thinking about individual immune functions as measurable scientific objects."
+---
+
+::: {.callout-note}
+## Sample Insight
+
+This page demonstrates the intended structure for a future FengLab Insight. It is editorial sample content, not a statement of completed research or established lab conclusions.
+:::
+
+## Starting question
+
+FengLab uses the expression
+
+$$
+y_i=f_i(x)
+$$
+
+as a compact way to organize a scientific question: given an immune perturbation $x$, how does the distinct immune system of individual $i$ transform that perturbation into an observable outcome $y_i$?
+
+The notation is not meant to imply that immunity is simple. Its value is that it forces us to ask what must be measured before an individual immune function can become a useful scientific object.
+
+## A possible line of inquiry
+
+A future essay could examine questions such as:
+
+- Which perturbations reveal stable versus context-dependent differences between individuals?
+- Which measurements best represent the outcome of an immune response?
+- How much repeated observation is needed to distinguish a personal immune pattern from noise?
+- When does a predictive model become biologically interpretable?
+
+## Open questions
+
+The most useful Insights should end with questions rather than artificial certainty. For example: can a meaningful $f_i$ be learned from sparse observations, and which parts of that function remain stable across time?
+
+## Notes for replacing this sample
+
+When turning this template into a real post, replace the text above with an authored perspective, add relevant references, and update the description and categories in the page header.

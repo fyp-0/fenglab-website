@@ -1,0 +1,36 @@
+---
+title: "Where Can AI Help Us Study Immune Variation?"
+date: "2026-07-11"
+categories:
+  - Data & AI
+  - Methods
+description: "Sample content: a cautious framework for discussing where machine learning may clarify—and obscure—individual immune variation."
+---
+
+::: {.callout-note}
+## Sample Methods Perspective
+
+This page is illustrative sample content. It does not claim that a particular model, dataset, or analysis has been validated by FengLab.
+:::
+
+## Begin with the scientific task
+
+A future methods perspective might separate three different goals:
+
+1. **Description:** representing complex immune measurements in a useful space;
+2. **Prediction:** estimating an outcome $y_i$ for a perturbation $x$; and
+3. **Design:** identifying which observations or interventions would be most informative.
+
+Keeping these goals distinct can make evaluation more meaningful. A model that compresses data well is not automatically a reliable predictor, and a predictive model is not automatically suitable for intervention design.
+
+## Questions for responsible use
+
+- What biological variation is present in the training data?
+- Which individuals or contexts are poorly represented?
+- Does performance persist across cohorts, time points, and measurement platforms?
+- Can uncertainty be communicated at the level of an individual prediction?
+- Which conclusions depend on the model, and which are supported directly by data?
+
+## What a real post should include
+
+A completed Insight should name the method or dataset under discussion, distinguish evidence from hypothesis, link to code or data where appropriate, and state the limits of the analysis.

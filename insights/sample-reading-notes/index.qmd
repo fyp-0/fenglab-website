@@ -1,0 +1,38 @@
+---
+title: "How to Read a Paper Through the Lens of Individual Variation"
+date: "2026-07-18"
+categories:
+  - Reading Notes
+  - Papers
+description: "Sample content: a reusable reading-note format for papers that inform how we think about heterogeneous immune responses."
+---
+
+::: {.callout-note}
+## Sample Reading Note
+
+This is a format demonstration. It does not describe a specific publication or claim that FengLab has adopted a particular interpretation.
+:::
+
+## Why this paper belongs in the notebook
+
+Begin with two or three sentences explaining why the paper matters to the lab’s scientific questions. Focus on the conceptual contribution rather than reproducing the abstract.
+
+## What changed in our thinking?
+
+Useful reading notes can distinguish among:
+
+- a new biological observation;
+- a method that changes what can be measured;
+- a conceptual model that reorganizes existing evidence;
+- a result that challenges an assumption; and
+- an unresolved limitation that suggests a new experiment.
+
+## Questions to carry forward
+
+Conclude with a small number of questions that connect the paper to future work. When a real paper is discussed, include its complete citation and a direct link to the publication.
+
+## Suggested citation block
+
+**Paper:** Author list. “Article title.” *Journal* (Year).  
+**Why we saved it:** One sentence in the lab’s own words.  
+**Questions:** Two or three specific questions for discussion.

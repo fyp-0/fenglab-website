@@ -6,27 +6,32 @@ website:
   title: "FengLab"
   navbar:
     left:
-      - href: index.qmd
-        text: Home
-      - href: research.qmd
-        text: Research
+      - href: insights.qmd
+        text: Insights
       - href: people.qmd
         text: People
+      - href: research.qmd
+        text: Research
       - href: publications.qmd
         text: Publications
-      - href: news.qmd
-        text: News
+      - href: upcoming.qmd
+        text: Upcoming
+      - href: fun.qmd
+        text: Fun
+      - href: support.qmd
+        text: Support
       - href: join.qmd
-        text: Join Us
+        text: Join
       - href: contact.qmd
         text: Contact
+      - href: zh/index.qmd
+        text: 中文版
 
   page-footer:
-    left: "© 2026 FengLab"
-    right: "Built with Quarto"
+    center: "© 2026 FengLab"
 
 format:
   html:
     theme: cosmo
     css: styles.css
-    toc: true
+    toc: false

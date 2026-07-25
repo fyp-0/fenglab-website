@@ -1,0 +1,11 @@
+---
+title: "新闻"
+description: "FengLab 新闻与动态。"
+body-classes: zh-page
+---
+
+## 实验室新闻
+
+### 2026
+
+实验室新闻、论文、学术报告、奖项及新成员信息将在此发布。

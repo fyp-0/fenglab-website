@@ -1,0 +1,79 @@
+---
+title: "Insights"
+description: "Ideas that shape our science."
+page-layout: full
+toc: false
+body-classes: insights-page
+listing:
+  contents: "insights/*/index.qmd"
+  type: default
+  sort: "date desc"
+  fields: [date, title, categories, description]
+  categories: true
+  sort-ui: false
+  filter-ui: false
+  feed: false
+---
+
+::: {.insights-shell}
+
+::: {.insights-header}
+::: {.insights-heading}
+<p class="insights-kicker">The FengLab notebook</p>
+
+# Insights
+
+## Ideas that shape our science.
+
+This is where FengLab shares perspectives, questions, reading notes, conceptual advances, and other ideas relevant to human immunity. It is a record of how we think—not only what we have done.
+:::
+
+::: {.insights-principle aria-label="FengLab scientific framework"}
+Discover $f_i$
+
+Predict $y_i$ from $x$
+
+Design $x$ for a desired $y$
+:::
+:::
+
+::: {.featured-insight}
+::: {.featured-label}
+Featured insight
+:::
+
+::: {.featured-copy}
+<p class="insight-meta"><span>Research Philosophy</span><time datetime="2026-07-25">July 25, 2026</time><span>Sample content</span></p>
+
+## What would it mean to discover an individual immune function?
+
+A sample essay outline exploring how $y_i=f_i(x)$ can serve as a working model for organizing questions about immune perturbations, individual variation, and measurable outcomes.
+
+[Read insight →](insights/sample-individual-immune-function/index.qmd){.read-insight}
+:::
+
+::: {.featured-mark aria-hidden="true"}
+::: {.featured-fi}
+$f_i$
+:::
+
+::: {.featured-caption}
+individual immune function
+:::
+:::
+:::
+
+::: {.insights-index-header}
+::: {}
+<p class="insights-kicker">Recent entries</p>
+
+## Notes, questions, and perspectives
+:::
+
+<p>Browse by category or read in reverse chronological order.</p>
+:::
+
+::: {#listing}
+:::
+
+:::

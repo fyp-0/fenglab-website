@@ -1,0 +1,67 @@
+---
+title: "联系"
+description: "FengLab 的联系方式与地址信息。"
+page-layout: full
+toc: false
+body-classes: "contact-page zh-page"
+---
+
+```{=html}
+<main class="contact-main" aria-labelledby="contact-title">
+  <header class="contact-header">
+    <p class="contact-kicker">FengLab</p>
+    <h1 id="contact-title">联系</h1>
+    <p>如需咨询科研合作、培养机会或职位申请，请通过以下信息与实验室联系。</p>
+  </header>
+
+  <div class="contact-grid">
+    <section class="contact-panel" aria-labelledby="contact-information-title">
+      <p class="contact-number" aria-hidden="true">01</p>
+      <h2 id="contact-information-title">联系信息</h2>
+      <div class="contact-panel-body">
+        <div class="contact-detail">
+          <p class="contact-label">首席研究员</p>
+          <p>Yupeng Feng</p>
+        </div>
+
+        <div class="contact-detail">
+          <p class="contact-label">电子邮箱</p>
+          <p><a href="mailto:feng_yupeng@him.cas.cn">feng_yupeng@him.cas.cn</a></p>
+        </div>
+
+        <div class="contact-note">
+          <p>请使用清晰的邮件主题，并简要说明来信目的。</p>
+        </div>
+      </div>
+    </section>
+
+    <section class="contact-panel" aria-labelledby="mailing-address-title">
+      <p class="contact-number" aria-hidden="true">02</p>
+      <h2 id="mailing-address-title">通信地址</h2>
+      <div class="contact-panel-body">
+        <address>
+          <strong>FengLab</strong><br>
+          机构通信地址<br>
+          详细信息即将更新
+        </address>
+
+        <p class="contact-placeholder">机构地址更新后，请使用此地址寄送信函及普通邮件。</p>
+      </div>
+    </section>
+
+    <section class="contact-panel" aria-labelledby="shipping-address-title">
+      <p class="contact-number" aria-hidden="true">03</p>
+      <h2 id="shipping-address-title">快递地址</h2>
+      <div class="contact-panel-body">
+        <address>
+          <strong>FengLab — 快递</strong><br>
+          机构快递地址<br>
+          详细信息即将更新
+        </address>
+
+        <p class="contact-placeholder">寄送时效性物品、快递或实验室物资前，请确认收件人及完整地址。</p>
+      </div>
+    </section>
+  </div>
+</main>
+```

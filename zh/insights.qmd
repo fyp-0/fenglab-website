@@ -1,0 +1,79 @@
+---
+title: "洞见"
+description: "塑造我们科学思考的思想。"
+page-layout: full
+toc: false
+body-classes: "insights-page zh-page"
+listing:
+  contents: "insights/*/index.qmd"
+  type: default
+  sort: "date desc"
+  fields: [date, title, categories, description]
+  categories: true
+  sort-ui: false
+  filter-ui: false
+  feed: false
+---
+
+::: {.insights-shell}
+
+::: {.insights-header}
+::: {.insights-heading}
+<p class="insights-kicker">FengLab 思想笔记</p>
+
+# 洞见
+
+## 塑造我们科学思考的思想。
+
+FengLab 在这里分享与人类免疫相关的科学观点、问题、阅读笔记、概念进展及其他启发。这不仅记录我们做了什么，也展现我们如何思考。
+:::
+
+::: {.insights-principle aria-label="FengLab 科学框架"}
+发现 $f_i$
+
+由 $x$ 预测 $y_i$
+
+为期望的 $y$ 设计 $x$
+:::
+:::
+
+::: {.featured-insight}
+::: {.featured-label}
+精选洞见
+:::
+
+::: {.featured-copy}
+<p class="insight-meta"><span>研究理念</span><time datetime="2026-07-25">2026 年 7 月 25 日</time><span>示例内容</span></p>
+
+## “发现个体免疫函数”意味着什么？
+
+这是一篇示例文章提纲，讨论如何以 $y_i=f_i(x)$ 为工作模型，组织关于免疫扰动、个体差异与可测量结果的科学问题。
+
+[阅读洞见 →](insights/sample-individual-immune-function/index.qmd){.read-insight}
+:::
+
+::: {.featured-mark aria-hidden="true"}
+::: {.featured-fi}
+$f_i$
+:::
+
+::: {.featured-caption}
+个体免疫函数
+:::
+:::
+:::
+
+::: {.insights-index-header}
+::: {}
+<p class="insights-kicker">最新文章</p>
+
+## 笔记、问题与观点
+:::
+
+<p>可按类别浏览，也可依时间倒序阅读。</p>
+:::
+
+::: {#listing}
+:::
+
+:::

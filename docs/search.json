@@ -1,31 +1,339 @@
 [
   {
-    "objectID": "index.html",
-    "href": "index.html",
-    "title": "FengLab",
+    "objectID": "insights.html",
+    "href": "insights.html",
+    "title": "Insights",
     "section": "",
-    "text": "Systems immunology · Single-cell science · Human health\n\n\n\nWe combine single-cell multi-omics, high-dimensional proteomics, computational biology, and translational research to understand how immune systems develop, respond to infection, and change across the lifespan.\n\nExplore our research → Meet the team\n\n\n\n\n\n::: {.orbit orbit-one}\n\n::: {.orbit orbit-two}\n\n::: {.orbit orbit-three}\n::: {.cell cell-one} ::: ::: {.cell cell-two} ::: ::: {.cell cell-three} ::: ::: {.cell cell-four} ::: ::: ::: :::"
+    "text": "The FengLab notebook\n\n\n\n\n\nThis is where FengLab shares perspectives, questions, reading notes, conceptual advances, and other ideas relevant to human immunity. It is a record of how we think—not only what we have done.\n\n\n\n\nDiscover \\(f_i\\)\nPredict \\(y_i\\) from \\(x\\)\nDesign \\(x\\) for a desired \\(y\\)\n\n\n\n\nFeatured insight\n\n\n\nResearch PhilosophyJuly 25, 2026Sample content\n\n\n\nA sample essay outline exploring how \\(y_i=f_i(x)\\) can serve as a working model for organizing questions about immune perturbations, individual variation, and measurable outcomes.\nRead insight →\n\n\n\n\n\\(f_i\\)\n\n\nindividual immune function\n\n\n\n\n\n\nRecent entries\n\n\n\n\n\n\nBrowse by category or read in reverse chronological order.\n\n\n\n\n\n\n\n\n\nResearch Philosophy\n\n\n\nSample content: an outline for thinking about individual immune functions as measurable scientific objects.\n\n\n\n\n\nJul 25, 2026\n\n\n\n\n\n\n\n\n\n研究理念\n\n\n\n示例内容：将个体免疫函数视为可测量科学对象的一种思考框架。\n\n\n\n\n\nJul 25, 2026\n\n\n\n\n\n\n\n\n\nReading Notes\n\nPapers\n\n\n\nSample content: a reusable reading-note format for papers that inform how we think about heterogeneous immune responses.\n\n\n\n\n\nJul 18, 2026\n\n\n\n\n\n\n\n\n\n阅读笔记\n\n论文\n\n\n\n示例内容：用于记录那些帮助我们理解免疫应答异质性的论文。\n\n\n\n\n\nJul 18, 2026\n\n\n\n\n\n\n\n\n\nData & AI\n\nMethods\n\n\n\nSample content: a cautious framework for discussing where machine learning may clarify—and obscure—individual immune variation.\n\n\n\n\n\nJul 11, 2026\n\n\n\n\n\n\n\n\n\n数据与人工智能\n\n方法\n\n\n\n示例内容：审慎讨论机器学习在哪些方面能够澄清或掩盖个体免疫差异。\n\n\n\n\n\nJul 11, 2026\n\n\n\n\n\nNo matching items"
   },
   {
-    "objectID": "index.html#research-areas",
-    "href": "index.html#research-areas",
-    "title": "FengLab",
+    "objectID": "insights.html#ideas-that-shape-our-science.",
+    "href": "insights.html#ideas-that-shape-our-science.",
+    "title": "Insights",
     "section": "",
-    "text": "We use integrated transcriptomic, epigenomic, proteomic, and immune-receptor measurements to characterize complex immune responses.\n\n\n\nWe study immune variation across individuals, developmental stages, clinical cohorts, and disease states.\n\n\n\nWe investigate immune responses to infection, vaccination, and preventive interventions."
+    "text": "This is where FengLab shares perspectives, questions, reading notes, conceptual advances, and other ideas relevant to human immunity. It is a record of how we think—not only what we have done."
   },
   {
-    "objectID": "index.html#latest-news",
-    "href": "index.html#latest-news",
-    "title": "FengLab",
+    "objectID": "insights.html#what-would-it-mean-to-discover-an-individual-immune-function",
+    "href": "insights.html#what-would-it-mean-to-discover-an-individual-immune-function",
+    "title": "Insights",
     "section": "",
-    "text": "News and laboratory updates will appear here."
+    "text": "A sample essay outline exploring how \\(y_i=f_i(x)\\) can serve as a working model for organizing questions about immune perturbations, individual variation, and measurable outcomes.\nRead insight →"
   },
   {
-    "objectID": "index.html#selected-publications",
-    "href": "index.html#selected-publications",
-    "title": "FengLab",
+    "objectID": "zh/insights.html",
+    "href": "zh/insights.html",
+    "title": "洞见",
     "section": "",
-    "text": "Selected publications will appear here."
+    "text": "FengLab\n  \n    洞见\n    成员\n    研究\n    论文\n    近期活动\n    实验室生活\n    支持\n    加入我们\n    联系\n    English"
+  },
+  {
+    "objectID": "zh/insights.html#塑造我们科学思考的思想",
+    "href": "zh/insights.html#塑造我们科学思考的思想",
+    "title": "洞见",
+    "section": "塑造我们科学思考的思想。",
+    "text": "塑造我们科学思考的思想。\nFengLab 在这里分享与人类免疫相关的科学观点、问题、阅读笔记、概念进展及其他启发。这不仅记录我们做了什么，也展现我们如何思考。"
+  },
+  {
+    "objectID": "zh/insights.html#发现个体免疫函数意味着什么",
+    "href": "zh/insights.html#发现个体免疫函数意味着什么",
+    "title": "洞见",
+    "section": "“发现个体免疫函数”意味着什么？",
+    "text": "“发现个体免疫函数”意味着什么？\n这是一篇示例文章提纲，讨论如何以 \\(y_i=f_i(x)\\) 为工作模型，组织关于免疫扰动、个体差异与可测量结果的科学问题。\n阅读洞见 →"
+  },
+  {
+    "objectID": "zh/insights.html#笔记问题与观点",
+    "href": "zh/insights.html#笔记问题与观点",
+    "title": "洞见",
+    "section": "笔记、问题与观点",
+    "text": "笔记、问题与观点"
+  },
+  {
+    "objectID": "zh/publications.html",
+    "href": "zh/publications.html",
+    "title": "论文",
+    "section": "",
+    "text": "FengLab\n  \n    洞见\n    成员\n    研究\n    论文\n    近期活动\n    实验室生活\n    支持\n    加入我们\n    联系\n    English\n  \n\n\n\n\n\n\n  \n    \n      FengLab 研究成果\n      论文\n      我们的研究涵盖人类系统免疫学、疫苗应答、抗体发现，以及微生物组与免疫功能之间的相互作用。\n    \n\n    \n      fi\n      最新引用数据及完整论文记录，请查看 Google Scholar 个人主页。\n      查看 Google Scholar ↗\n    \n  \n\n  \n    \n      精选论文\n      2025\n    \n    \n      Cell Host & Microbe · 33(5), 705–718.e5\n      抗生素诱导的肠道微生物组扰动改变狂犬病疫苗的免疫应答\n      本研究探讨抗生素引起的肠道微生物组扰动如何影响狂犬病疫苗接种后的免疫应答。\n      查看论文 →\n    \n  \n\n  \n    \n      \n        论文记录\n        研究论文\n      \n      按时间倒序排列。论文标题链接至期刊或出版商的原始页面。\n    \n\n    \n      2025\n      \n        \n          Cell Host & Microbe · 33(5), 705–718.e5\n          抗生素诱导的肠道微生物组扰动改变狂犬病疫苗的免疫应答\n        \n        \n          Cell Reports Medicine · 6(4)\n          肺移植受者基线免疫状态改变且对 SARS-CoV-2 mRNA 疫苗的免疫应答受损\n        \n      \n    \n\n    \n      2024\n      \n        \n          Science Immunology · 9(94), eadi8039\n          AS03 佐剂增强植物源 COVID-19 疫苗在人群中诱导的记忆 B 细胞应答幅度、持久性与克隆广度\n        \n        \n          Science Translational Medicine · 16(758), eadn6605\n          在非人灵长类动物中对 R21 疟疾疫苗多种临床阶段佐剂进行比较免疫学评估\n        \n      \n    \n\n    \n      2023\n      \n        \n          Journal of Clinical Investigation · 133(10)\n          COVID-19 mRNA 加强免疫应答的持久性\n        \n        \n          Nature Immunology · 24(2), 337–348\n          SREBP 信号对有效的 B 细胞应答至关重要\n        \n        \n          Cell · 186(21), 4632–4651.e23\n          出生后针对 SARS-CoV-2 的黏膜与全身免疫多组学分析\n        \n        \n          Science Translational Medicine · 15(695), eadg7404\n          以 AS03 佐剂 COVID-19 疫苗免疫猕猴产生针对沙贝病毒的广谱中和抗体\n        \n      \n    \n\n    \n      2022\n      \n        \n          Nature Immunology · 23(4), 543–555\n          辉瑞–BioNTech BNT162b2 疫苗诱导先天性与适应性免疫的机制\n        \n        \n          Science Translational Medicine · 14(658), eabq4130\n          佐剂型亚单位疫苗可诱导针对 SARS-CoV-2 奥密克戎变异株的持久保护\n        \n        \n          npj Vaccines · 7, 55\n          使用具有临床相关性的佐剂增强 SARS-CoV-2 亚单位疫苗，可在小鼠中诱导持久保护\n        \n      \n    \n\n    \n      2021\n      \n        \n          Nature · 596(7872), 410–416\n          BNT162b2 mRNA 疫苗在人体中的系统疫苗学研究\n        \n      \n    \n\n    \n      2020\n      \n        \n          Science · 369(6508), 1210–1220\n          人类轻症与重症 COVID-19 感染免疫反应的系统生物学评估\n        \n      \n    \n\n    \n      2019\n      \n        \n          Frontiers in Immunology · 10, 2426\n          中国恒河猴浆母细胞的表型鉴定及抗原特异性单克隆抗体克隆\n        \n      \n    \n\n    \n      2018\n      \n        \n          npj Vaccines · 3, 29\n          引入 NS1 与 prM/M 对携带 E 蛋白的腺病毒载体寨卡病毒疫苗实现有效保护至关重要\n        \n        \n          Journal of Biomedical Nanotechnology · 14(10), 1806–1815\n          口服补骨脂宁负载 PEG-PLGA 纳米颗粒治疗小鼠哮喘模型\n        \n        \n          Virology · 518, 272–283\n          14 型与 55 型腺病毒的六邻体和纤维蛋白是中和抗体的主要靶点，但仅纤维蛋白特异性抗体具有交叉中和活性\n        \n        \n          Emerging Microbes & Infections · 7(1), 1–12\n          2 型腺病毒载体埃博拉病毒疫苗在小鼠和恒河猴中诱导强效抗体及细胞免疫应答\n        \n      \n    \n\n    \n      2016\n      \n        \n          Scientific Reports · 6, 25856\n          针对埃博拉病毒感染的高效中和单克隆抗体\n        \n      \n    \n\n    \n      2015\n      \n        \n          International Journal of Nanomedicine · 1743–1757\n          将蛋白质特异性靶向递送至吞噬性巨噬细胞\n        \n      \n    \n\n    \n      2014\n      \n        \n          International Journal of Pharmaceutics · 465(1–2), 378–387\n          一种具有高包封能力、用于靶向递送化疗药物 10-羟基喜树碱的新型多功能聚酰胺-胺树枝状递送系统\n        \n        \n          Organic & Biomolecular Chemistry · 12(29), 5365–5374\n          一种可在细胞内激活的肿瘤成像荧光探针\n        \n      \n    \n\n    \n      更正\n      2023 · Nature 618, E18 作者更正：BNT162b2 mRNA 疫苗在人体中的系统疫苗学研究"
+  },
+  {
+    "objectID": "zh/fun.html",
+    "href": "zh/fun.html",
+    "title": "实验室生活",
+    "section": "",
+    "text": "FengLab\n  \n    洞见\n    成员\n    研究\n    论文\n    近期活动\n    实验室生活\n    支持\n    加入我们\n    联系\n    English"
+  },
+  {
+    "objectID": "zh/fun.html#实验室日常",
+    "href": "zh/fun.html#实验室日常",
+    "title": "实验室生活",
+    "section": "实验室日常",
+    "text": "实验室日常\n科学是一项需要协作与创造力的事业。本页将记录实验室庆祝活动、团建、学术会议和社区活动中的照片与故事。"
+  },
+  {
+    "objectID": "zh/fun.html#实验室文化",
+    "href": "zh/fun.html#实验室文化",
+    "title": "实验室生活",
+    "section": "实验室文化",
+    "text": "实验室文化\n我们珍视好奇心、真诚互助、严谨思考与开放讨论，也享受共同探索未知的过程。"
+  },
+  {
+    "objectID": "zh/support.html",
+    "href": "zh/support.html",
+    "title": "支持",
+    "section": "",
+    "text": "FengLab\n  \n    洞见\n    成员\n    研究\n    论文\n    近期活动\n    实验室生活\n    支持\n    加入我们\n    联系\n    English"
+  },
+  {
+    "objectID": "zh/support.html#支持我们的工作",
+    "href": "zh/support.html#支持我们的工作",
+    "title": "支持",
+    "section": "支持我们的工作",
+    "text": "支持我们的工作\n对 FengLab 的支持将推动人类免疫差异研究，并帮助培养新一代科学家。"
+  },
+  {
+    "objectID": "zh/support.html#合作机会",
+    "href": "zh/support.html#合作机会",
+    "title": "支持",
+    "section": "合作机会",
+    "text": "合作机会\n我们欢迎与同样关注人类免疫健康的学术合作者、临床伙伴、基金会及其他机构交流合作。\n如希望开启对话，请联系实验室。"
+  },
+  {
+    "objectID": "zh/contact.html",
+    "href": "zh/contact.html",
+    "title": "联系",
+    "section": "",
+    "text": "FengLab\n  \n    洞见\n    成员\n    研究\n    论文\n    近期活动\n    实验室生活\n    支持\n    加入我们\n    联系\n    English\n  \n\n\n\n\n\n\n  \n    FengLab\n    联系\n    如需咨询科研合作、培养机会或职位申请，请通过以下信息与实验室联系。\n  \n\n  \n    \n      01\n      联系信息\n      \n        \n          首席研究员\n          Yupeng Feng\n        \n\n        \n          电子邮箱\n          feng_yupeng@him.cas.cn\n        \n\n        \n          请使用清晰的邮件主题，并简要说明来信目的。\n        \n      \n    \n\n    \n      02\n      通信地址\n      \n        \n          FengLab\n          机构通信地址\n          详细信息即将更新\n        \n\n        机构地址更新后，请使用此地址寄送信函及普通邮件。\n      \n    \n\n    \n      03\n      快递地址\n      \n        \n          FengLab — 快递\n          机构快递地址\n          详细信息即将更新\n        \n\n        寄送时效性物品、快递或实验室物资前，请确认收件人及完整地址。"
+  },
+  {
+    "objectID": "zh/upcoming.html",
+    "href": "zh/upcoming.html",
+    "title": "近期活动",
+    "section": "",
+    "text": "FengLab\n  \n    洞见\n    成员\n    研究\n    论文\n    近期活动\n    实验室生活\n    支持\n    加入我们\n    联系\n    English"
+  },
+  {
+    "objectID": "zh/upcoming.html#即将举行的活动",
+    "href": "zh/upcoming.html#即将举行的活动",
+    "title": "近期活动",
+    "section": "即将举行的活动",
+    "text": "即将举行的活动\nFengLab 的学术报告、会议发言、实验室会议、工作坊及其他近期活动将在此发布。"
+  },
+  {
+    "objectID": "zh/upcoming.html#邀请实验室",
+    "href": "zh/upcoming.html#邀请实验室",
+    "title": "近期活动",
+    "section": "邀请实验室",
+    "text": "邀请实验室\n如需邀请我们进行学术报告、参加科学会议或开展合作活动，请前往联系页面。"
+  },
+  {
+    "objectID": "zh/insights/sample-reading-notes/index.html",
+    "href": "zh/insights/sample-reading-notes/index.html",
+    "title": "如何从个体差异的视角阅读一篇论文",
+    "section": "",
+    "text": "FengLab\n  \n    洞见\n    成员\n    研究\n    论文\n    近期活动\n    实验室生活\n    支持\n    加入我们\n    联系\n    English"
+  },
+  {
+    "objectID": "zh/insights/sample-reading-notes/index.html#为什么这篇论文值得记录",
+    "href": "zh/insights/sample-reading-notes/index.html#为什么这篇论文值得记录",
+    "title": "如何从个体差异的视角阅读一篇论文",
+    "section": "为什么这篇论文值得记录？",
+    "text": "为什么这篇论文值得记录？\n首先用两三句话说明这篇论文为何与实验室的科学问题相关。重点应放在其概念贡献上，而不是重复论文摘要。"
+  },
+  {
+    "objectID": "zh/insights/sample-reading-notes/index.html#它如何改变了我们的思考",
+    "href": "zh/insights/sample-reading-notes/index.html#它如何改变了我们的思考",
+    "title": "如何从个体差异的视角阅读一篇论文",
+    "section": "它如何改变了我们的思考？",
+    "text": "它如何改变了我们的思考？\n有价值的阅读笔记可以区分：\n\n新的生物学观察；\n改变测量能力的方法；\n重新组织既有证据的概念模型；\n对既有假设提出挑战的结果；\n以及能够引出新实验的未解决局限。"
+  },
+  {
+    "objectID": "zh/insights/sample-reading-notes/index.html#值得继续追问的问题",
+    "href": "zh/insights/sample-reading-notes/index.html#值得继续追问的问题",
+    "title": "如何从个体差异的视角阅读一篇论文",
+    "section": "值得继续追问的问题",
+    "text": "值得继续追问的问题\n最后提出少量能够将论文与未来工作联系起来的问题。讨论真实论文时，请加入完整引文并直接链接至原始论文。"
+  },
+  {
+    "objectID": "zh/insights/sample-reading-notes/index.html#建议的引文模块",
+    "href": "zh/insights/sample-reading-notes/index.html#建议的引文模块",
+    "title": "如何从个体差异的视角阅读一篇论文",
+    "section": "建议的引文模块",
+    "text": "建议的引文模块\n论文： 作者名单。“论文标题。” 期刊（年份）。\n收藏理由： 用实验室自己的语言概括为一句话。\n问题： 提出两到三个具体的讨论问题。"
+  },
+  {
+    "objectID": "publications.html",
+    "href": "publications.html",
+    "title": "Publications",
+    "section": "",
+    "text": "FengLab research\n      Publications\n      Research spanning human systems immunology, vaccine responses, antibody discovery, and the interaction between the microbiome and immune function.\n    \n\n    \n      fi\n      For current citation metrics and the live publication record, visit the complete profile.\n      View Google Scholar ↗\n    \n  \n\n  \n    \n      Featured publication\n      2025\n    \n    \n      Cell Host & Microbe · 33(5), 705–718.e5\n      Antibiotic-induced gut microbiome perturbation alters the immune responses to the rabies vaccine\n      A study of how antibiotic-driven perturbation of the gut microbiome relates to immune responses following rabies vaccination.\n      View publication →\n    \n  \n\n  \n    \n      \n        Publication record\n        Research articles\n      \n      Listed in reverse chronological order. Titles link to the original journal or publisher record.\n    \n\n    \n      2025\n      \n        \n          Cell Host & Microbe · 33(5), 705–718.e5\n          Antibiotic-induced gut microbiome perturbation alters the immune responses to the rabies vaccine\n        \n        \n          Cell Reports Medicine · 6(4)\n          Altered baseline immunological state and impaired immune response to SARS-CoV-2 mRNA vaccination in lung transplant recipients\n        \n      \n    \n\n    \n      2024\n      \n        \n          Science Immunology · 9(94), eadi8039\n          AS03 adjuvant enhances the magnitude, persistence, and clonal breadth of memory B cell responses to a plant-based COVID-19 vaccine in humans\n        \n        \n          Science Translational Medicine · 16(758), eadn6605\n          A comparative immunological assessment of multiple clinical-stage adjuvants for the R21 malaria vaccine in nonhuman primates\n        \n      \n    \n\n    \n      2023\n      \n        \n          Journal of Clinical Investigation · 133(10)\n          Durability of immune responses to mRNA booster vaccination against COVID-19\n        \n        \n          Nature Immunology · 24(2), 337–348\n          SREBP signaling is essential for effective B cell responses\n        \n        \n          Cell · 186(21), 4632–4651.e23\n          Multi-omics analysis of mucosal and systemic immunity to SARS-CoV-2 after birth\n        \n        \n          Science Translational Medicine · 15(695), eadg7404\n          Broadly neutralizing antibodies against sarbecoviruses generated by immunization of macaques with an AS03-adjuvanted COVID-19 vaccine\n        \n      \n    \n\n    \n      2022\n      \n        \n          Nature Immunology · 23(4), 543–555\n          Mechanisms of innate and adaptive immunity to the Pfizer-BioNTech BNT162b2 vaccine\n        \n        \n          Science Translational Medicine · 14(658), eabq4130\n          Durable protection against the SARS-CoV-2 Omicron variant is induced by an adjuvanted subunit vaccine\n        \n        \n          npj Vaccines · 7, 55\n          Adjuvanting a subunit SARS-CoV-2 vaccine with clinically relevant adjuvants induces durable protection in mice\n        \n      \n    \n\n    \n      2021\n      \n        \n          Nature · 596(7872), 410–416\n          Systems vaccinology of the BNT162b2 mRNA vaccine in humans\n        \n      \n    \n\n    \n      2020\n      \n        \n          Science · 369(6508), 1210–1220\n          Systems biological assessment of immunity to mild versus severe COVID-19 infection in humans\n        \n      \n    \n\n    \n      2019\n      \n        \n          Frontiers in Immunology · 10, 2426\n          Phenotypic characterization of Chinese rhesus macaque plasmablasts for cloning antigen-specific monoclonal antibodies\n        \n      \n    \n\n    \n      2018\n      \n        \n          npj Vaccines · 3, 29\n          Incorporation of NS1 and prM/M are important to confer effective protection of adenovirus-vectored Zika virus vaccine carrying E protein\n        \n        \n          Journal of Biomedical Nanotechnology · 14(10), 1806–1815\n          Oral delivery of bavachinin-loaded PEG-PLGA nanoparticles for asthma treatment in a murine model\n        \n        \n          Virology · 518, 272–283\n          Hexon and fiber of adenovirus type 14 and 55 are major targets of neutralizing antibody but only fiber-specific antibody contributes to cross-neutralizing activity\n        \n        \n          Emerging Microbes & Infections · 7(1), 1–12\n          An adenovirus serotype 2-vectored ebolavirus vaccine generates robust antibody and cell-mediated immune responses in mice and rhesus macaques\n        \n      \n    \n\n    \n      2016\n      \n        \n          Scientific Reports · 6, 25856\n          Potent neutralizing monoclonal antibodies against Ebola virus infection\n        \n      \n    \n\n    \n      2015\n      \n        \n          International Journal of Nanomedicine · 1743–1757\n          Specifically targeted delivery of protein to phagocytic macrophages\n        \n      \n    \n\n    \n      2014\n      \n        \n          International Journal of Pharmaceutics · 465(1–2), 378–387\n          A novel multifunctional poly (amidoamine) dendrimeric delivery system with superior encapsulation capacity for targeted delivery of the chemotherapy drug 10-hydroxycamptothecin\n        \n        \n          Organic & Biomolecular Chemistry · 12(29), 5365–5374\n          An intracellularly activatable, fluorogenic probe for cancer imaging\n        \n      \n    \n\n    \n      Corrections\n      2023 · Nature 618, E18 Author Correction: Systems vaccinology of the BNT162b2 mRNA vaccine in humans"
+  },
+  {
+    "objectID": "fun.html",
+    "href": "fun.html",
+    "title": "Fun",
+    "section": "",
+    "text": "Science is a collaborative and creative endeavor. This page will collect photographs and stories from lab celebrations, retreats, conferences, and community activities."
+  },
+  {
+    "objectID": "fun.html#life-in-the-lab",
+    "href": "fun.html#life-in-the-lab",
+    "title": "Fun",
+    "section": "",
+    "text": "Science is a collaborative and creative endeavor. This page will collect photographs and stories from lab celebrations, retreats, conferences, and community activities."
+  },
+  {
+    "objectID": "fun.html#lab-culture",
+    "href": "fun.html#lab-culture",
+    "title": "Fun",
+    "section": "Lab culture",
+    "text": "Lab culture\nWe value curiosity, generosity, rigorous thinking, open discussion, and enjoying the process of discovery together."
+  },
+  {
+    "objectID": "support.html",
+    "href": "support.html",
+    "title": "Support",
+    "section": "",
+    "text": "Support for the Feng Lab advances research into human immune variation and helps train the next generation of scientists."
+  },
+  {
+    "objectID": "support.html#support-our-work",
+    "href": "support.html#support-our-work",
+    "title": "Support",
+    "section": "",
+    "text": "Support for the Feng Lab advances research into human immune variation and helps train the next generation of scientists."
+  },
+  {
+    "objectID": "support.html#partnership-opportunities",
+    "href": "support.html#partnership-opportunities",
+    "title": "Support",
+    "section": "Partnership opportunities",
+    "text": "Partnership opportunities\nWe welcome conversations with academic collaborators, clinical partners, foundations, and organizations that share our interest in improving human immune health.\nPlease contact the lab to begin a conversation."
+  },
+  {
+    "objectID": "contact.html",
+    "href": "contact.html",
+    "title": "Contact",
+    "section": "",
+    "text": "FengLab\n    Contact\n    For research, collaboration, training, and employment inquiries, please contact the lab using the information below.\n  \n\n  \n    \n      01\n      Contact Information\n      \n        \n          Principal Investigator\n          Yupeng Feng\n        \n\n        \n          Email\n          feng_yupeng@him.cas.cn\n        \n\n        \n          Please use a clear subject line and briefly describe the purpose of your inquiry.\n        \n      \n    \n\n    \n      02\n      Mailing Address\n      \n        \n          FengLab\n          Institutional mailing address\n          details forthcoming\n        \n\n        Use this address for letters and standard postal correspondence once the institutional details are added.\n      \n    \n\n    \n      03\n      Shipping Address\n      \n        \n          FengLab — Deliveries\n          Institutional shipping address\n          details forthcoming\n        \n\n        For time-sensitive, courier, or laboratory deliveries, confirm the recipient and complete address before shipping."
+  },
+  {
+    "objectID": "upcoming.html",
+    "href": "upcoming.html",
+    "title": "Upcoming",
+    "section": "",
+    "text": "Seminars, conference presentations, laboratory meetings, workshops, and other upcoming Feng Lab activities will be listed here."
+  },
+  {
+    "objectID": "upcoming.html#upcoming-events",
+    "href": "upcoming.html#upcoming-events",
+    "title": "Upcoming",
+    "section": "",
+    "text": "Seminars, conference presentations, laboratory meetings, workshops, and other upcoming Feng Lab activities will be listed here."
+  },
+  {
+    "objectID": "upcoming.html#invite-the-lab",
+    "href": "upcoming.html#invite-the-lab",
+    "title": "Upcoming",
+    "section": "Invite the lab",
+    "text": "Invite the lab\nFor speaking invitations, scientific meetings, or collaborative events, please visit the Contact page."
+  },
+  {
+    "objectID": "insights/sample-reading-notes/index.html",
+    "href": "insights/sample-reading-notes/index.html",
+    "title": "How to Read a Paper Through the Lens of Individual Variation",
+    "section": "",
+    "text": "NoteSample Reading Note\n\n\n\nThis is a format demonstration. It does not describe a specific publication or claim that FengLab has adopted a particular interpretation."
+  },
+  {
+    "objectID": "insights/sample-reading-notes/index.html#why-this-paper-belongs-in-the-notebook",
+    "href": "insights/sample-reading-notes/index.html#why-this-paper-belongs-in-the-notebook",
+    "title": "How to Read a Paper Through the Lens of Individual Variation",
+    "section": "Why this paper belongs in the notebook",
+    "text": "Why this paper belongs in the notebook\nBegin with two or three sentences explaining why the paper matters to the lab’s scientific questions. Focus on the conceptual contribution rather than reproducing the abstract."
+  },
+  {
+    "objectID": "insights/sample-reading-notes/index.html#what-changed-in-our-thinking",
+    "href": "insights/sample-reading-notes/index.html#what-changed-in-our-thinking",
+    "title": "How to Read a Paper Through the Lens of Individual Variation",
+    "section": "What changed in our thinking?",
+    "text": "What changed in our thinking?\nUseful reading notes can distinguish among:\n\na new biological observation;\na method that changes what can be measured;\na conceptual model that reorganizes existing evidence;\na result that challenges an assumption; and\nan unresolved limitation that suggests a new experiment."
+  },
+  {
+    "objectID": "insights/sample-reading-notes/index.html#questions-to-carry-forward",
+    "href": "insights/sample-reading-notes/index.html#questions-to-carry-forward",
+    "title": "How to Read a Paper Through the Lens of Individual Variation",
+    "section": "Questions to carry forward",
+    "text": "Questions to carry forward\nConclude with a small number of questions that connect the paper to future work. When a real paper is discussed, include its complete citation and a direct link to the publication."
+  },
+  {
+    "objectID": "insights/sample-reading-notes/index.html#suggested-citation-block",
+    "href": "insights/sample-reading-notes/index.html#suggested-citation-block",
+    "title": "How to Read a Paper Through the Lens of Individual Variation",
+    "section": "Suggested citation block",
+    "text": "Suggested citation block\nPaper: Author list. “Article title.” Journal (Year).\nWhy we saved it: One sentence in the lab’s own words.\nQuestions: Two or three specific questions for discussion."
+  },
+  {
+    "objectID": "insights/sample-individual-immune-function/index.html",
+    "href": "insights/sample-individual-immune-function/index.html",
+    "title": "What Would It Mean to Discover an Individual Immune Function?",
+    "section": "",
+    "text": "NoteSample Insight\n\n\n\nThis page demonstrates the intended structure for a future FengLab Insight. It is editorial sample content, not a statement of completed research or established lab conclusions."
+  },
+  {
+    "objectID": "insights/sample-individual-immune-function/index.html#starting-question",
+    "href": "insights/sample-individual-immune-function/index.html#starting-question",
+    "title": "What Would It Mean to Discover an Individual Immune Function?",
+    "section": "Starting question",
+    "text": "Starting question\nFengLab uses the expression\n\\[\ny_i=f_i(x)\n\\]\nas a compact way to organize a scientific question: given an immune perturbation \\(x\\), how does the distinct immune system of individual \\(i\\) transform that perturbation into an observable outcome \\(y_i\\)?\nThe notation is not meant to imply that immunity is simple. Its value is that it forces us to ask what must be measured before an individual immune function can become a useful scientific object."
+  },
+  {
+    "objectID": "insights/sample-individual-immune-function/index.html#a-possible-line-of-inquiry",
+    "href": "insights/sample-individual-immune-function/index.html#a-possible-line-of-inquiry",
+    "title": "What Would It Mean to Discover an Individual Immune Function?",
+    "section": "A possible line of inquiry",
+    "text": "A possible line of inquiry\nA future essay could examine questions such as:\n\nWhich perturbations reveal stable versus context-dependent differences between individuals?\nWhich measurements best represent the outcome of an immune response?\nHow much repeated observation is needed to distinguish a personal immune pattern from noise?\nWhen does a predictive model become biologically interpretable?"
+  },
+  {
+    "objectID": "insights/sample-individual-immune-function/index.html#open-questions",
+    "href": "insights/sample-individual-immune-function/index.html#open-questions",
+    "title": "What Would It Mean to Discover an Individual Immune Function?",
+    "section": "Open questions",
+    "text": "Open questions\nThe most useful Insights should end with questions rather than artificial certainty. For example: can a meaningful \\(f_i\\) be learned from sparse observations, and which parts of that function remain stable across time?"
+  },
+  {
+    "objectID": "insights/sample-individual-immune-function/index.html#notes-for-replacing-this-sample",
+    "href": "insights/sample-individual-immune-function/index.html#notes-for-replacing-this-sample",
+    "title": "What Would It Mean to Discover an Individual Immune Function?",
+    "section": "Notes for replacing this sample",
+    "text": "Notes for replacing this sample\nWhen turning this template into a real post, replace the text above with an authored perspective, add relevant references, and update the description and categories in the page header."
+  },
+  {
+    "objectID": "insights/sample-data-ai-notes/index.html",
+    "href": "insights/sample-data-ai-notes/index.html",
+    "title": "Where Can AI Help Us Study Immune Variation?",
+    "section": "",
+    "text": "NoteSample Methods Perspective\n\n\n\nThis page is illustrative sample content. It does not claim that a particular model, dataset, or analysis has been validated by FengLab."
+  },
+  {
+    "objectID": "insights/sample-data-ai-notes/index.html#begin-with-the-scientific-task",
+    "href": "insights/sample-data-ai-notes/index.html#begin-with-the-scientific-task",
+    "title": "Where Can AI Help Us Study Immune Variation?",
+    "section": "Begin with the scientific task",
+    "text": "Begin with the scientific task\nA future methods perspective might separate three different goals:\n\nDescription: representing complex immune measurements in a useful space;\nPrediction: estimating an outcome \\(y_i\\) for a perturbation \\(x\\); and\nDesign: identifying which observations or interventions would be most informative.\n\nKeeping these goals distinct can make evaluation more meaningful. A model that compresses data well is not automatically a reliable predictor, and a predictive model is not automatically suitable for intervention design."
+  },
+  {
+    "objectID": "insights/sample-data-ai-notes/index.html#questions-for-responsible-use",
+    "href": "insights/sample-data-ai-notes/index.html#questions-for-responsible-use",
+    "title": "Where Can AI Help Us Study Immune Variation?",
+    "section": "Questions for responsible use",
+    "text": "Questions for responsible use\n\nWhat biological variation is present in the training data?\nWhich individuals or contexts are poorly represented?\nDoes performance persist across cohorts, time points, and measurement platforms?\nCan uncertainty be communicated at the level of an individual prediction?\nWhich conclusions depend on the model, and which are supported directly by data?"
+  },
+  {
+    "objectID": "insights/sample-data-ai-notes/index.html#what-a-real-post-should-include",
+    "href": "insights/sample-data-ai-notes/index.html#what-a-real-post-should-include",
+    "title": "Where Can AI Help Us Study Immune Variation?",
+    "section": "What a real post should include",
+    "text": "What a real post should include\nA completed Insight should name the method or dataset under discussion, distinguish evidence from hypothesis, link to code or data where appropriate, and state the limits of the analysis."
   },
   {
     "objectID": "research.html",
@@ -49,27 +357,6 @@
     "text": "Research programs\n\nImmune development across the lifespan\nDescription forthcoming.\n\n\nSingle-cell multi-omics\nDescription forthcoming.\n\n\nInfectious disease and immune protection\nDescription forthcoming.\n\n\nTranslational biomarkers\nDescription forthcoming."
   },
   {
-    "objectID": "publications.html",
-    "href": "publications.html",
-    "title": "Publications",
-    "section": "",
-    "text": "Publication information will be added here."
-  },
-  {
-    "objectID": "publications.html#selected-publications",
-    "href": "publications.html#selected-publications",
-    "title": "Publications",
-    "section": "",
-    "text": "Publication information will be added here."
-  },
-  {
-    "objectID": "publications.html#complete-publication-list",
-    "href": "publications.html#complete-publication-list",
-    "title": "Publications",
-    "section": "Complete publication list",
-    "text": "Complete publication list\nA complete publication list, with links to PubMed and journal pages, will be added here."
-  },
-  {
     "objectID": "join.html",
     "href": "join.html",
     "title": "Join Us",
@@ -91,27 +378,6 @@
     "text": "How to apply\nPlease send the following:\n\nA curriculum vitae\nA brief description of your research interests\nRelevant publications or research experience\nContact information for references"
   },
   {
-    "objectID": "contact.html",
-    "href": "contact.html",
-    "title": "Contact",
-    "section": "",
-    "text": "Institutional affiliation forthcoming.\nEmail: Add laboratory email address\nAddress: Add institutional address"
-  },
-  {
-    "objectID": "contact.html#fenglab",
-    "href": "contact.html#fenglab",
-    "title": "Contact",
-    "section": "",
-    "text": "Institutional affiliation forthcoming.\nEmail: Add laboratory email address\nAddress: Add institutional address"
-  },
-  {
-    "objectID": "contact.html#general-inquiries",
-    "href": "contact.html#general-inquiries",
-    "title": "Contact",
-    "section": "General inquiries",
-    "text": "General inquiries\nPlease contact us regarding research, collaboration, training, and employment opportunities."
-  },
-  {
     "objectID": "news.html",
     "href": "news.html",
     "title": "News",
@@ -124,6 +390,167 @@
     "title": "News",
     "section": "",
     "text": "News, publications, presentations, awards, and new-member announcements will appear here."
+  },
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Feng Lab",
+    "section": "",
+    "text": "Insights\n      People\n      Research\n      Publications\n      Upcoming\n      Fun\n      Support\n      Join\n      Contact\n      中文版\n    \n  \n\n  Feng Lab\n\n  \n    \n      Every individual carries a unique immune system, shaped by shared biological principles, genetics, development, environment, and life experiences.\n      Our goal is to uncover the algorithms that govern these immune systems, enabling a future in which immune health can be understood, predicted, and improved for every individual."
+  },
+  {
+    "objectID": "zh/insights/sample-individual-immune-function/index.html",
+    "href": "zh/insights/sample-individual-immune-function/index.html",
+    "title": "“发现个体免疫函数”意味着什么？",
+    "section": "",
+    "text": "FengLab\n  \n    洞见\n    成员\n    研究\n    论文\n    近期活动\n    实验室生活\n    支持\n    加入我们\n    联系\n    English"
+  },
+  {
+    "objectID": "zh/insights/sample-individual-immune-function/index.html#起始问题",
+    "href": "zh/insights/sample-individual-immune-function/index.html#起始问题",
+    "title": "“发现个体免疫函数”意味着什么？",
+    "section": "起始问题",
+    "text": "起始问题\nFengLab 使用以下表达式：\n\\[\ny_i=f_i(x)\n\\]\n它以简洁的方式组织了一个科学问题：面对免疫扰动 \\(x\\)，个体 \\(i\\) 独特的免疫系统如何将其转化为可观察的结果 \\(y_i\\)？\n这一符号并不意味着免疫系统是简单的。它的价值在于促使我们思考：要让个体免疫函数成为有用的科学对象，我们首先需要测量什么？"
+  },
+  {
+    "objectID": "zh/insights/sample-individual-immune-function/index.html#一条可能的探索路径",
+    "href": "zh/insights/sample-individual-immune-function/index.html#一条可能的探索路径",
+    "title": "“发现个体免疫函数”意味着什么？",
+    "section": "一条可能的探索路径",
+    "text": "一条可能的探索路径\n未来的文章可以讨论如下问题：\n\n哪些扰动能够揭示个体间稳定的差异，哪些差异又依赖具体情境？\n哪些测量指标最能代表一次免疫应答的结果？\n需要进行多少次重复观察，才能将个人免疫模式与随机噪声区分开来？\n预测模型在什么条件下能够获得生物学可解释性？"
+  },
+  {
+    "objectID": "zh/insights/sample-individual-immune-function/index.html#开放问题",
+    "href": "zh/insights/sample-individual-immune-function/index.html#开放问题",
+    "title": "“发现个体免疫函数”意味着什么？",
+    "section": "开放问题",
+    "text": "开放问题\n最有价值的洞见应以问题而非人为制造的确定性收尾。例如：能否从稀疏观测中学习到有意义的 \\(f_i\\)？这个函数的哪些部分能够随时间保持稳定？"
+  },
+  {
+    "objectID": "zh/insights/sample-individual-immune-function/index.html#替换本示例时的说明",
+    "href": "zh/insights/sample-individual-immune-function/index.html#替换本示例时的说明",
+    "title": "“发现个体免疫函数”意味着什么？",
+    "section": "替换本示例时的说明",
+    "text": "替换本示例时的说明\n将本模板改写为正式文章时，请用作者撰写的观点替换上述内容，补充相关参考文献，并更新页面头部的摘要与分类。"
+  },
+  {
+    "objectID": "zh/insights/sample-data-ai-notes/index.html",
+    "href": "zh/insights/sample-data-ai-notes/index.html",
+    "title": "人工智能可以如何帮助我们研究免疫差异？",
+    "section": "",
+    "text": "FengLab\n  \n    洞见\n    成员\n    研究\n    论文\n    近期活动\n    实验室生活\n    支持\n    加入我们\n    联系\n    English"
+  },
+  {
+    "objectID": "zh/insights/sample-data-ai-notes/index.html#从科学任务出发",
+    "href": "zh/insights/sample-data-ai-notes/index.html#从科学任务出发",
+    "title": "人工智能可以如何帮助我们研究免疫差异？",
+    "section": "从科学任务出发",
+    "text": "从科学任务出发\n未来的方法学文章可以区分三类目标：\n\n描述： 在有意义的空间中表示复杂的免疫测量数据；\n预测： 估计个体面对扰动 \\(x\\) 时的结果 \\(y_i\\)；\n设计： 找出最有信息价值的观察或干预。\n\n明确区分这些目标，可以让模型评估更具意义。能够良好压缩数据的模型并不自动成为可靠的预测工具；具有预测能力的模型也不一定适用于干预设计。"
+  },
+  {
+    "objectID": "zh/insights/sample-data-ai-notes/index.html#负责任使用人工智能时应考虑的问题",
+    "href": "zh/insights/sample-data-ai-notes/index.html#负责任使用人工智能时应考虑的问题",
+    "title": "人工智能可以如何帮助我们研究免疫差异？",
+    "section": "负责任使用人工智能时应考虑的问题",
+    "text": "负责任使用人工智能时应考虑的问题\n\n训练数据包含哪些生物学差异？\n哪些个体或情境在数据中代表不足？\n模型表现能否跨队列、时间点和测量平台保持稳定？\n能否在个体预测层面清楚表达不确定性？\n哪些结论依赖模型，哪些结论由数据直接支持？"
+  },
+  {
+    "objectID": "zh/insights/sample-data-ai-notes/index.html#正式文章应包含什么",
+    "href": "zh/insights/sample-data-ai-notes/index.html#正式文章应包含什么",
+    "title": "人工智能可以如何帮助我们研究免疫差异？",
+    "section": "正式文章应包含什么",
+    "text": "正式文章应包含什么\n完成后的洞见文章应明确所讨论的方法或数据集，区分证据与假设，在适当情况下链接代码或数据，并清楚说明分析的局限。"
+  },
+  {
+    "objectID": "zh/research.html",
+    "href": "zh/research.html",
+    "title": "研究",
+    "section": "",
+    "text": "FengLab\n  \n    洞见\n    成员\n    研究\n    论文\n    近期活动\n    实验室生活\n    支持\n    加入我们\n    联系\n    English"
+  },
+  {
+    "objectID": "zh/research.html#概述",
+    "href": "zh/research.html#概述",
+    "title": "研究",
+    "section": "概述",
+    "text": "概述\nFengLab 致力于研究塑造人类免疫应答的细胞与分子机制。"
+  },
+  {
+    "objectID": "zh/research.html#研究方向",
+    "href": "zh/research.html#研究方向",
+    "title": "研究",
+    "section": "研究方向",
+    "text": "研究方向\n\n全生命周期中的免疫发育\n研究内容即将更新。\n\n\n单细胞多组学\n研究内容即将更新。\n\n\n感染性疾病与免疫保护\n研究内容即将更新。\n\n\n转化生物标志物\n研究内容即将更新。"
+  },
+  {
+    "objectID": "zh/join.html",
+    "href": "zh/join.html",
+    "title": "加入我们",
+    "section": "",
+    "text": "FengLab\n  \n    洞见\n    成员\n    研究\n    论文\n    近期活动\n    实验室生活\n    支持\n    加入我们\n    联系\n    English"
+  },
+  {
+    "objectID": "zh/join.html#招募机会",
+    "href": "zh/join.html#招募机会",
+    "title": "加入我们",
+    "section": "招募机会",
+    "text": "招募机会\nFengLab 欢迎有热情的学生、博士后、科研人员及潜在合作者与我们联系。"
+  },
+  {
+    "objectID": "zh/join.html#申请方式",
+    "href": "zh/join.html#申请方式",
+    "title": "加入我们",
+    "section": "申请方式",
+    "text": "申请方式\n请发送以下材料：\n\n个人简历\n对个人研究兴趣的简要说明\n相关论文或科研经历\n推荐人联系方式"
+  },
+  {
+    "objectID": "zh/news.html",
+    "href": "zh/news.html",
+    "title": "新闻",
+    "section": "",
+    "text": "FengLab\n  \n    洞见\n    成员\n    研究\n    论文\n    近期活动\n    实验室生活\n    支持\n    加入我们\n    联系\n    English"
+  },
+  {
+    "objectID": "zh/news.html#实验室新闻",
+    "href": "zh/news.html#实验室新闻",
+    "title": "新闻",
+    "section": "实验室新闻",
+    "text": "实验室新闻\n\n2026\n实验室新闻、论文、学术报告、奖项及新成员信息将在此发布。"
+  },
+  {
+    "objectID": "zh/index.html",
+    "href": "zh/index.html",
+    "title": "Feng Lab",
+    "section": "",
+    "text": "FengLab\n  \n    洞见\n    成员\n    研究\n    论文\n    近期活动\n    实验室生活\n    支持\n    加入我们\n    联系\n    English\n  \n\n\n\n\n\n\n  \n    \n      洞见\n      成员\n      研究\n      论文\n      近期活动\n      实验室生活\n      支持\n      加入我们\n      联系\n      English\n    \n  \n\n  Feng Lab\n\n  \n    \n      每个人都拥有独特的免疫系统，它由共同的生物学规律、遗传背景、个体发育、生活环境和人生经历共同塑造。\n      我们的目标是揭示支配这些免疫系统的内在算法，从而让每个人的免疫健康在未来都能够被理解、预测并改善。"
+  },
+  {
+    "objectID": "zh/people.html",
+    "href": "zh/people.html",
+    "title": "成员",
+    "section": "",
+    "text": "FengLab\n  \n    洞见\n    成员\n    研究\n    论文\n    近期活动\n    实验室生活\n    支持\n    加入我们\n    联系\n    English"
+  },
+  {
+    "objectID": "zh/people.html#首席研究员",
+    "href": "zh/people.html#首席研究员",
+    "title": "成员",
+    "section": "首席研究员",
+    "text": "首席研究员\n\nYupeng Feng\n个人简介与研究方向即将更新。"
+  },
+  {
+    "objectID": "zh/people.html#现任成员",
+    "href": "zh/people.html#现任成员",
+    "title": "成员",
+    "section": "现任成员",
+    "text": "现任成员\n实验室成员简介将在此陆续发布。"
+  },
+  {
+    "objectID": "zh/people.html#往届成员",
+    "href": "zh/people.html#往届成员",
+    "title": "成员",
+    "section": "往届成员",
+    "text": "往届成员\n实验室往届成员名单将在此更新。"
   },
   {
     "objectID": "people.html",
@@ -152,33 +579,5 @@
     "title": "People",
     "section": "Alumni",
     "text": "Alumni\nFormer lab members will be listed here."
-  },
-  {
-    "objectID": "index.html#from-molecular-detail-to-human-health",
-    "href": "index.html#from-molecular-detail-to-human-health",
-    "title": "FengLab",
-    "section": "From molecular detail to human health",
-    "text": "From molecular detail to human health\n\nThe immune system is dynamic, deeply individual, and shaped over a lifetime. We connect measurements across biological scales to reveal the principles behind that complexity.\n\n\n\n\n01\n\n\nSingle-cell multi-omics\nWe integrate transcriptomic, epigenomic, proteomic, and immune-receptor measurements to characterize complex immune responses.\n\n\n\n\n02\n\n\nHuman immunology\nWe study immune variation across individuals, developmental stages, clinical cohorts, and disease states.\n\n\n\n\n03\n\n\nInfection & prevention\nWe investigate immune responses to infection, vaccination, and preventive interventions."
-  },
-  {
-    "objectID": "index.html#better-maps-of-immunity-can-lead-to-better-medicine.",
-    "href": "index.html#better-maps-of-immunity-can-lead-to-better-medicine.",
-    "title": "FengLab",
-    "section": "Better maps of immunity can lead to better medicine.",
-    "text": "Better maps of immunity can lead to better medicine.\nBy pairing rich human datasets with rigorous computation, we aim to discover biological patterns that can inform prediction, prevention, and treatment."
-  },
-  {
-    "objectID": "index.html#follow-our-latest-work",
-    "href": "index.html#follow-our-latest-work",
-    "title": "FengLab",
-    "section": "Follow our latest work",
-    "text": "Follow our latest work\nRead about new studies, laboratory milestones, and other updates from the FengLab.\nView lab news →"
-  },
-  {
-    "objectID": "index.html#do-your-best-work-with-us",
-    "href": "index.html#do-your-best-work-with-us",
-    "title": "FengLab",
-    "section": "Do your best work with us",
-    "text": "Do your best work with us\nWe welcome curious, collaborative researchers who want to advance our understanding of human immunity.\nExplore opportunities →"
   }
 ]

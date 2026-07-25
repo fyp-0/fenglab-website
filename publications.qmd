@@ -1,11 +1,207 @@
 ---
 title: "Publications"
+description: "Peer-reviewed research from FengLab."
+page-layout: full
+toc: false
+body-classes: publications-page
 ---
 
-## Selected publications
+```{=html}
+<main class="publications-main" aria-labelledby="publications-title">
+  <header class="publications-header">
+    <div class="publications-heading">
+      <p class="publications-kicker">FengLab research</p>
+      <h1 id="publications-title">Publications</h1>
+      <p class="publications-intro">Research spanning human systems immunology, vaccine responses, antibody discovery, and the interaction between the microbiome and immune function.</p>
+    </div>
 
-Publication information will be added here.
+    <aside class="publications-profile" aria-label="Publication profile">
+      <span class="publications-fi" aria-hidden="true">f<sub>i</sub></span>
+      <p>For current citation metrics and the live publication record, visit the complete profile.</p>
+      <a href="https://scholar.google.com/citations?user=msJAq4wAAAAJ&amp;hl=en">View Google Scholar <span aria-hidden="true">↗</span></a>
+    </aside>
+  </header>
 
-## Complete publication list
+  <section class="publication-feature" aria-labelledby="featured-publication-title">
+    <div class="publication-feature-label">
+      <span>Featured publication</span>
+      <span>2025</span>
+    </div>
+    <div class="publication-feature-copy">
+      <p class="publication-journal">Cell Host &amp; Microbe · 33(5), 705–718.e5</p>
+      <h2 id="featured-publication-title"><a href="https://www.cell.com/cell-host-microbe/fulltext/S1931-3128(25)00126-X">Antibiotic-induced gut microbiome perturbation alters the immune responses to the rabies vaccine</a></h2>
+      <p>A study of how antibiotic-driven perturbation of the gut microbiome relates to immune responses following rabies vaccination.</p>
+      <a class="publication-read" href="https://www.cell.com/cell-host-microbe/fulltext/S1931-3128(25)00126-X">View publication <span aria-hidden="true">→</span></a>
+    </div>
+  </section>
 
-A complete publication list, with links to PubMed and journal pages, will be added here.
+  <section class="publication-archive" aria-labelledby="publication-archive-title">
+    <div class="publication-archive-heading">
+      <div>
+        <p class="publications-kicker">Publication record</p>
+        <h2 id="publication-archive-title">Research articles</h2>
+      </div>
+      <p>Listed in reverse chronological order. Titles link to the original journal or publisher record.</p>
+    </div>
+
+    <section class="publication-year" aria-labelledby="publications-2025">
+      <h3 id="publications-2025">2025</h3>
+      <div class="publication-list">
+        <article class="publication-item">
+          <p class="publication-journal">Cell Host &amp; Microbe · 33(5), 705–718.e5</p>
+          <h4><a href="https://www.cell.com/cell-host-microbe/fulltext/S1931-3128(25)00126-X">Antibiotic-induced gut microbiome perturbation alters the immune responses to the rabies vaccine</a></h4>
+        </article>
+        <article class="publication-item">
+          <p class="publication-journal">Cell Reports Medicine · 6(4)</p>
+          <h4><a href="https://www.cell.com/cell-reports-medicine/fulltext/S2666-3791(25)00123-5">Altered baseline immunological state and impaired immune response to SARS-CoV-2 mRNA vaccination in lung transplant recipients</a></h4>
+        </article>
+      </div>
+    </section>
+
+    <section class="publication-year" aria-labelledby="publications-2024">
+      <h3 id="publications-2024">2024</h3>
+      <div class="publication-list">
+        <article class="publication-item">
+          <p class="publication-journal">Science Immunology · 9(94), eadi8039</p>
+          <h4><a href="https://www.science.org/doi/10.1126/sciimmunol.adi8039">AS03 adjuvant enhances the magnitude, persistence, and clonal breadth of memory B cell responses to a plant-based COVID-19 vaccine in humans</a></h4>
+        </article>
+        <article class="publication-item">
+          <p class="publication-journal">Science Translational Medicine · 16(758), eadn6605</p>
+          <h4><a href="https://www.science.org/doi/10.1126/scitranslmed.adn6605">A comparative immunological assessment of multiple clinical-stage adjuvants for the R21 malaria vaccine in nonhuman primates</a></h4>
+        </article>
+      </div>
+    </section>
+
+    <section class="publication-year" aria-labelledby="publications-2023">
+      <h3 id="publications-2023">2023</h3>
+      <div class="publication-list">
+        <article class="publication-item">
+          <p class="publication-journal">Journal of Clinical Investigation · 133(10)</p>
+          <h4><a href="https://www.jci.org/articles/view/167955">Durability of immune responses to mRNA booster vaccination against COVID-19</a></h4>
+        </article>
+        <article class="publication-item">
+          <p class="publication-journal">Nature Immunology · 24(2), 337–348</p>
+          <h4><a href="https://www.nature.com/articles/s41590-022-01376-y">SREBP signaling is essential for effective B cell responses</a></h4>
+        </article>
+        <article class="publication-item">
+          <p class="publication-journal">Cell · 186(21), 4632–4651.e23</p>
+          <h4><a href="https://www.cell.com/cell/fulltext/S0092-8674(23)00978-9">Multi-omics analysis of mucosal and systemic immunity to SARS-CoV-2 after birth</a></h4>
+        </article>
+        <article class="publication-item">
+          <p class="publication-journal">Science Translational Medicine · 15(695), eadg7404</p>
+          <h4><a href="https://www.science.org/doi/10.1126/scitranslmed.adg7404">Broadly neutralizing antibodies against sarbecoviruses generated by immunization of macaques with an AS03-adjuvanted COVID-19 vaccine</a></h4>
+        </article>
+      </div>
+    </section>
+
+    <section class="publication-year" aria-labelledby="publications-2022">
+      <h3 id="publications-2022">2022</h3>
+      <div class="publication-list">
+        <article class="publication-item">
+          <p class="publication-journal">Nature Immunology · 23(4), 543–555</p>
+          <h4><a href="https://www.nature.com/articles/s41590-022-01163-9">Mechanisms of innate and adaptive immunity to the Pfizer-BioNTech BNT162b2 vaccine</a></h4>
+        </article>
+        <article class="publication-item">
+          <p class="publication-journal">Science Translational Medicine · 14(658), eabq4130</p>
+          <h4><a href="https://www.science.org/doi/10.1126/scitranslmed.abq4130">Durable protection against the SARS-CoV-2 Omicron variant is induced by an adjuvanted subunit vaccine</a></h4>
+        </article>
+        <article class="publication-item">
+          <p class="publication-journal">npj Vaccines · 7, 55</p>
+          <h4><a href="https://www.nature.com/articles/s41541-022-00472-2">Adjuvanting a subunit SARS-CoV-2 vaccine with clinically relevant adjuvants induces durable protection in mice</a></h4>
+        </article>
+      </div>
+    </section>
+
+    <section class="publication-year" aria-labelledby="publications-2021">
+      <h3 id="publications-2021">2021</h3>
+      <div class="publication-list">
+        <article class="publication-item">
+          <p class="publication-journal">Nature · 596(7872), 410–416</p>
+          <h4><a href="https://www.nature.com/articles/s41586-021-03791-x">Systems vaccinology of the BNT162b2 mRNA vaccine in humans</a></h4>
+        </article>
+      </div>
+    </section>
+
+    <section class="publication-year" aria-labelledby="publications-2020">
+      <h3 id="publications-2020">2020</h3>
+      <div class="publication-list">
+        <article class="publication-item">
+          <p class="publication-journal">Science · 369(6508), 1210–1220</p>
+          <h4><a href="https://www.science.org/doi/10.1126/science.abc6261">Systems biological assessment of immunity to mild versus severe COVID-19 infection in humans</a></h4>
+        </article>
+      </div>
+    </section>
+
+    <section class="publication-year" aria-labelledby="publications-2019">
+      <h3 id="publications-2019">2019</h3>
+      <div class="publication-list">
+        <article class="publication-item">
+          <p class="publication-journal">Frontiers in Immunology · 10, 2426</p>
+          <h4><a href="https://www.frontiersin.org/journals/immunology/articles/10.3389/fimmu.2019.02426/full">Phenotypic characterization of Chinese rhesus macaque plasmablasts for cloning antigen-specific monoclonal antibodies</a></h4>
+        </article>
+      </div>
+    </section>
+
+    <section class="publication-year" aria-labelledby="publications-2018">
+      <h3 id="publications-2018">2018</h3>
+      <div class="publication-list">
+        <article class="publication-item">
+          <p class="publication-journal">npj Vaccines · 3, 29</p>
+          <h4><a href="https://www.nature.com/articles/s41541-018-0072-6">Incorporation of NS1 and prM/M are important to confer effective protection of adenovirus-vectored Zika virus vaccine carrying E protein</a></h4>
+        </article>
+        <article class="publication-item">
+          <p class="publication-journal">Journal of Biomedical Nanotechnology · 14(10), 1806–1815</p>
+          <h4><a href="https://www.ingentaconnect.com/contentone/asp/jbn/2018/00000014/00000010/art00012">Oral delivery of bavachinin-loaded PEG-PLGA nanoparticles for asthma treatment in a murine model</a></h4>
+        </article>
+        <article class="publication-item">
+          <p class="publication-journal">Virology · 518, 272–283</p>
+          <h4><a href="https://www.sciencedirect.com/science/article/pii/S0042682218300801">Hexon and fiber of adenovirus type 14 and 55 are major targets of neutralizing antibody but only fiber-specific antibody contributes to cross-neutralizing activity</a></h4>
+        </article>
+        <article class="publication-item">
+          <p class="publication-journal">Emerging Microbes &amp; Infections · 7(1), 1–12</p>
+          <h4><a href="https://www.tandfonline.com/doi/full/10.1038/s41426-018-0102-5">An adenovirus serotype 2-vectored ebolavirus vaccine generates robust antibody and cell-mediated immune responses in mice and rhesus macaques</a></h4>
+        </article>
+      </div>
+    </section>
+
+    <section class="publication-year" aria-labelledby="publications-2016">
+      <h3 id="publications-2016">2016</h3>
+      <div class="publication-list">
+        <article class="publication-item">
+          <p class="publication-journal">Scientific Reports · 6, 25856</p>
+          <h4><a href="https://www.nature.com/articles/srep25856">Potent neutralizing monoclonal antibodies against Ebola virus infection</a></h4>
+        </article>
+      </div>
+    </section>
+
+    <section class="publication-year" aria-labelledby="publications-2015">
+      <h3 id="publications-2015">2015</h3>
+      <div class="publication-list">
+        <article class="publication-item">
+          <p class="publication-journal">International Journal of Nanomedicine · 1743–1757</p>
+          <h4><a href="https://www.dovepress.com/specifically-targeted-delivery-of-protein-tonbspphagocytic-macrophages-peer-reviewed-fulltext-article-IJN">Specifically targeted delivery of protein to phagocytic macrophages</a></h4>
+        </article>
+      </div>
+    </section>
+
+    <section class="publication-year" aria-labelledby="publications-2014">
+      <h3 id="publications-2014">2014</h3>
+      <div class="publication-list">
+        <article class="publication-item">
+          <p class="publication-journal">International Journal of Pharmaceutics · 465(1–2), 378–387</p>
+          <h4><a href="https://www.sciencedirect.com/science/article/pii/S0378517314001045">A novel multifunctional poly (amidoamine) dendrimeric delivery system with superior encapsulation capacity for targeted delivery of the chemotherapy drug 10-hydroxycamptothecin</a></h4>
+        </article>
+        <article class="publication-item">
+          <p class="publication-journal">Organic &amp; Biomolecular Chemistry · 12(29), 5365–5374</p>
+          <h4><a href="https://pubs.rsc.org/en/content/articlelanding/2014/ob/c4ob00694j">An intracellularly activatable, fluorogenic probe for cancer imaging</a></h4>
+        </article>
+      </div>
+    </section>
+
+    <section class="publication-note" aria-labelledby="publication-notes-title">
+      <h3 id="publication-notes-title">Corrections</h3>
+      <p><span>2023 · Nature 618, E18</span> <a href="https://www.nature.com/articles/s41586-023-05977-x">Author Correction: Systems vaccinology of the BNT162b2 mRNA vaccine in humans</a></p>
+    </section>
+  </section>
+</main>
+```

@@ -1,0 +1,4 @@
+lang: zh
+format:
+  html:
+    include-before-body: ../_includes/zh-nav.html

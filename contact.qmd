@@ -1,15 +1,67 @@
 ---
 title: "Contact"
+description: "Contact information and address details for FengLab."
+page-layout: full
+toc: false
+body-classes: contact-page
 ---
 
-## FengLab
+```{=html}
+<main class="contact-main" aria-labelledby="contact-title">
+  <header class="contact-header">
+    <p class="contact-kicker">FengLab</p>
+    <h1 id="contact-title">Contact</h1>
+    <p>For research, collaboration, training, and employment inquiries, please contact the lab using the information below.</p>
+  </header>
 
-Institutional affiliation forthcoming.
+  <div class="contact-grid">
+    <section class="contact-panel" aria-labelledby="contact-information-title">
+      <p class="contact-number" aria-hidden="true">01</p>
+      <h2 id="contact-information-title">Contact Information</h2>
+      <div class="contact-panel-body">
+        <div class="contact-detail">
+          <p class="contact-label">Principal Investigator</p>
+          <p>Yupeng Feng</p>
+        </div>
 
-**Email:** Add laboratory email address
+        <div class="contact-detail">
+          <p class="contact-label">Email</p>
+          <p><a href="mailto:feng_yupeng@him.cas.cn">feng_yupeng@him.cas.cn</a></p>
+        </div>
 
-**Address:** Add institutional address
+        <div class="contact-note">
+          <p>Please use a clear subject line and briefly describe the purpose of your inquiry.</p>
+        </div>
+      </div>
+    </section>
 
-## General inquiries
+    <section class="contact-panel" aria-labelledby="mailing-address-title">
+      <p class="contact-number" aria-hidden="true">02</p>
+      <h2 id="mailing-address-title">Mailing Address</h2>
+      <div class="contact-panel-body">
+        <address>
+          <strong>FengLab</strong><br>
+          Institutional mailing address<br>
+          details forthcoming
+        </address>
 
-Please contact us regarding research, collaboration, training, and employment opportunities.
+        <p class="contact-placeholder">Use this address for letters and standard postal correspondence once the institutional details are added.</p>
+      </div>
+    </section>
+
+    <section class="contact-panel" aria-labelledby="shipping-address-title">
+      <p class="contact-number" aria-hidden="true">03</p>
+      <h2 id="shipping-address-title">Shipping Address</h2>
+      <div class="contact-panel-body">
+        <address>
+          <strong>FengLab — Deliveries</strong><br>
+          Institutional shipping address<br>
+          details forthcoming
+        </address>
+
+        <p class="contact-placeholder">For time-sensitive, courier, or laboratory deliveries, confirm the recipient and complete address before shipping.</p>
+      </div>
+    </section>
+  </div>
+</main>
+```
