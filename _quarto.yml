@@ -4,6 +4,7 @@ project:
 
 website:
   title: "FengLab"
+  favicon: images/favicon.png
   navbar:
     left:
       - href: insights.qmd
