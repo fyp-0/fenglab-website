@@ -5,7 +5,11 @@ page-layout: full
 toc: false
 body-classes: insights-page
 listing:
-  contents: "insights/*/index.qmd"
+  id: insights-en-listing
+  contents:
+    - "insights/sample-individual-immune-function/index.qmd"
+    - "insights/sample-reading-notes/index.qmd"
+    - "insights/sample-data-ai-notes/index.qmd"
   type: default
   sort: "date desc"
   fields: [date, title, categories, description]
@@ -73,7 +77,7 @@ individual immune function
 <p>Browse by category or read in reverse chronological order.</p>
 :::
 
-::: {#listing}
+::: {#insights-en-listing}
 :::
 
 :::

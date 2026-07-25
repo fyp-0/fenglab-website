@@ -3,19 +3,16 @@
     "listing": "/insights.html",
     "items": [
       "/insights/sample-individual-immune-function/index.html",
-      "/zh/insights/sample-individual-immune-function/index.html",
       "/insights/sample-reading-notes/index.html",
-      "/zh/insights/sample-reading-notes/index.html",
-      "/insights/sample-data-ai-notes/index.html",
-      "/zh/insights/sample-data-ai-notes/index.html"
+      "/insights/sample-data-ai-notes/index.html"
     ]
   },
   {
     "listing": "/zh/insights.html",
     "items": [
-      "/zh/insights/sample-individual-immune-function/index.html",
-      "/zh/insights/sample-reading-notes/index.html",
-      "/zh/insights/sample-data-ai-notes/index.html"
+      "/zh/insights/zh-individual-immune-function/index.html",
+      "/zh/insights/zh-reading-notes/index.html",
+      "/zh/insights/zh-data-ai-notes/index.html"
     ]
   }
 ]
