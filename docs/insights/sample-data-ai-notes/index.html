@@ -73,7 +73,7 @@ ul.task-list li input[type="checkbox"] {
     "search-label": "Search"
   }
 }</script>
-<link rel="stylesheet" href="../../styles.css?v=20260726-3">
+<link rel="stylesheet" href="../../styles.css?v=20260726-4">
 
   <script src="https://cdnjs.cloudflare.com/polyfill/v3/polyfill.min.js?features=es6"></script>
   <script defer="" src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml-full.js" type="text/javascript"></script>
@@ -267,6 +267,31 @@ window.Quarto = {
 </main> <!-- /main -->
 <script>
 document.addEventListener("DOMContentLoaded", () => {
+  const chineseNav = document.querySelector(".zh-site-navbar");
+  const chineseMenuButton = document.querySelector(".zh-menu-toggle");
+
+  if (chineseNav && chineseMenuButton) {
+    chineseMenuButton.addEventListener("click", () => {
+      const isOpen = chineseNav.classList.toggle("is-open");
+      chineseMenuButton.setAttribute("aria-expanded", String(isOpen));
+    });
+
+    chineseNav.addEventListener("click", (event) => {
+      if (!event.target.closest(".zh-site-links a")) return;
+      chineseNav.classList.remove("is-open");
+      chineseMenuButton.setAttribute("aria-expanded", "false");
+    });
+
+    document.addEventListener("keydown", (event) => {
+      if (event.key !== "Escape" || !chineseNav.classList.contains("is-open")) {
+        return;
+      }
+      chineseNav.classList.remove("is-open");
+      chineseMenuButton.setAttribute("aria-expanded", "false");
+      chineseMenuButton.focus();
+    });
+  }
+
   const normalizedPath = (value) => {
     const path = new URL(value, window.location.href).pathname;
     return path.replace(/\/index\.html$/, "/").replace(/\.html$/, "").replace(/\/$/, "");

@@ -1935,6 +1935,10 @@ a:focus-visible {
   white-space: nowrap;
 }
 
+.zh-menu-toggle {
+  display: none;
+}
+
 .zh-site-links {
   display: flex;
   min-width: 0;
@@ -2012,27 +2016,68 @@ a:focus-visible {
 
 @media (max-width: 900px) {
   .zh-site-navbar {
-    display: block;
+    display: grid;
+    grid-template-columns: 1fr auto;
     width: calc(100% - 36px);
     min-height: 0;
-    padding: 1.1rem 0 0.85rem;
-    overflow-x: auto;
-    scrollbar-width: thin;
+    padding: 0.75rem 0;
+    align-items: center;
+    gap: 0;
   }
 
   .zh-site-brand {
-    display: inline-block;
-    margin-bottom: 0.9rem;
+    display: block;
+    margin: 0;
+  }
+
+  .zh-menu-toggle {
+    display: inline-flex;
+    min-height: 42px;
+    padding: 0.45rem 0.75rem;
+    border: 1px solid rgba(10, 41, 85, 0.28);
+    border-radius: 0.35rem;
+    color: var(--philosophy-navy);
+    background: transparent;
+    align-items: center;
+    gap: 0.42rem;
+    font: inherit;
+    font-size: 0.92rem;
+    cursor: pointer;
+  }
+
+  .zh-menu-toggle:focus-visible {
+    outline: 2px solid var(--philosophy-navy);
+    outline-offset: 2px;
+  }
+
+  .zh-menu-icon {
+    font-size: 1.15rem;
+    line-height: 1;
   }
 
   .zh-site-links {
-    width: max-content;
-    gap: 1.35rem;
-    padding-bottom: 0.35rem;
+    display: none;
+    grid-column: 1 / -1;
+    width: 100%;
+    padding: 0.8rem 0 0.25rem;
+    align-items: stretch;
+    gap: 0;
+    white-space: normal;
+  }
+
+  .zh-site-navbar.is-open .zh-site-links {
+    display: grid;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
   }
 
   .zh-site-links a {
-    font-size: 0.92rem;
+    padding: 0.7rem 0.35rem;
+    border-top: 1px solid rgba(10, 41, 85, 0.12);
+    font-size: 0.95rem;
+  }
+
+  .zh-site-links a.active {
+    font-weight: 700;
   }
 }
 
