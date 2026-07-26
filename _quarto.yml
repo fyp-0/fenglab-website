@@ -1,6 +1,8 @@
 project:
   type: website
   output-dir: docs
+  resources:
+    - styles.css
 
 website:
   title: "Feng Lab"
@@ -34,7 +36,6 @@ website:
 format:
   html:
     theme: cosmo
-    css: styles.css
     include-in-header: _includes/cache-bust-css.html
     include-after-body: _includes/keep-active-nav-visible.html
     toc: false
