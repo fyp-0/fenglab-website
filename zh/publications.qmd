@@ -35,6 +35,39 @@ body-classes: "publications-page zh-page"
     </div>
   </section>
 
+  <section class="cover-features" aria-labelledby="cover-features-title">
+    <div class="cover-features-heading">
+      <div>
+        <p class="publications-kicker">期刊重点呈现</p>
+        <h2 id="cover-features-title">封面论文</h2>
+      </div>
+      <p>三项研究获选期刊封面论文，展现了我们在疫苗设计、记忆 B 细胞生物学以及微生物组–免疫调控方面的工作。</p>
+    </div>
+    <div class="cover-features-grid">
+      <article class="cover-feature-card">
+        <a class="cover-feature-image" href="https://www.cell.com/cell-host-microbe/fulltext/S1931-3128(25)00126-X">
+          <img src="../images/publications/covers/cell-host-microbe-2025-cover.png" alt="Cell Host &amp; Microbe 封面：炎症与代谢的免疫交响曲">
+        </a>
+        <p class="cover-feature-meta">Cell Host &amp; Microbe · 2025 年 5 月</p>
+        <h3><a href="https://www.cell.com/cell-host-microbe/fulltext/S1931-3128(25)00126-X">抗生素诱导的肠道微生物组扰动改变狂犬病疫苗的免疫应答</a></h3>
+      </article>
+      <article class="cover-feature-card">
+        <a class="cover-feature-image" href="https://www.science.org/doi/10.1126/sciimmunol.adi8039">
+          <img src="../images/publications/covers/science-immunology-2024-cover.png" alt="Science Immunology 封面：植物源疫苗与免疫应答测量">
+        </a>
+        <p class="cover-feature-meta">Science Immunology · 2024 年 4 月</p>
+        <h3><a href="https://www.science.org/doi/10.1126/sciimmunol.adi8039">AS03 佐剂增强记忆 B 细胞应答的幅度、持久性与克隆广度</a></h3>
+      </article>
+      <article class="cover-feature-card">
+        <a class="cover-feature-image" href="https://www.science.org/doi/10.1126/scitranslmed.abq4130">
+          <img src="../images/publications/covers/science-translational-medicine-2022-cover.png" alt="Science Translational Medicine 封面：SARS-CoV-2 病毒颗粒与纳米颗粒疫苗">
+        </a>
+        <p class="cover-feature-meta">Science Translational Medicine · 2022 年 8 月</p>
+        <h3><a href="https://www.science.org/doi/10.1126/scitranslmed.abq4130">佐剂型亚单位疫苗可诱导针对 SARS-CoV-2 奥密克戎变异株的持久保护</a></h3>
+      </article>
+    </div>
+  </section>
+
   <section class="publication-archive" aria-labelledby="publication-archive-title">
     <div class="publication-archive-heading">
       <div>

@@ -26,7 +26,7 @@ body-classes: contact-page
 
         <div class="contact-detail">
           <p class="contact-label">Email</p>
-          <p><a href="mailto:feng_yupeng@him.cas.cn">feng_yupeng@him.cas.cn</a></p>
+          <p><a href="mailto:fengyupeng@him.cas.cn">fengyupeng@him.cas.cn</a></p>
         </div>
 
         <div class="contact-note">
@@ -41,11 +41,13 @@ body-classes: contact-page
       <div class="contact-panel-body">
         <address>
           <strong>FengLab</strong><br>
-          Institutional mailing address<br>
-          details forthcoming
+          150 Dongfang Street, Xiasha Subdistrict<br>
+          Qiantang District, Hangzhou<br>
+          Zhejiang Province 310018<br>
+          China
         </address>
 
-        <p class="contact-placeholder">Use this address for letters and standard postal correspondence once the institutional details are added.</p>
+        <p class="contact-placeholder">Use this address for letters and standard postal correspondence.</p>
       </div>
     </section>
 
@@ -55,8 +57,10 @@ body-classes: contact-page
       <div class="contact-panel-body">
         <address>
           <strong>FengLab — Deliveries</strong><br>
-          Institutional shipping address<br>
-          details forthcoming
+          150 Dongfang Street, Xiasha Subdistrict<br>
+          Qiantang District, Hangzhou<br>
+          Zhejiang Province 310018<br>
+          China
         </address>
 
         <p class="contact-placeholder">For time-sensitive, courier, or laboratory deliveries, confirm the recipient and complete address before shipping.</p>
