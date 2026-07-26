@@ -72,7 +72,7 @@ ul.task-list li input[type="checkbox"] {
     "search-label": "搜索"
   }
 }</script>
-<link rel="stylesheet" href="../styles.css?v=20260726-9">
+<link rel="stylesheet" href="../styles.css?v=20260726-10">
 
 
 </head>
@@ -149,7 +149,7 @@ ul.task-list li input[type="checkbox"] {
 <!-- main -->
 <main class="content page-columns page-full column-page" id="quarto-document-content">
 <nav class="zh-site-navbar" aria-label="主导航">
-  <a class="zh-site-brand" href="../zh/index.html" aria-label="Feng Lab 中文首页">Feng Lab</a>
+  <a class="zh-site-brand" href="../zh/index.html" aria-label="FengLab 中文首页">FengLab</a>
   <button class="zh-menu-toggle" type="button" aria-expanded="false" aria-controls="zh-site-links">
     <span class="zh-menu-icon" aria-hidden="true">☰</span>
     <span>菜单</span>
@@ -428,39 +428,6 @@ ul.task-list li input[type="checkbox"] {
 </main> <!-- /main -->
 <script>
 document.addEventListener("DOMContentLoaded", () => {
-  if (document.body.classList.contains("zh-page")) {
-    const brand = document.querySelector("#quarto-header .navbar-brand");
-    const brandTitle = brand?.querySelector(".navbar-title");
-    const headerLinks = [
-      ...document.querySelectorAll("#quarto-header .navbar-nav a.nav-link"),
-    ];
-    const chineseNavigation = [
-      ["/zh/insights.html", "洞见"],
-      ["/zh/people.html", "成员"],
-      ["/zh/research.html", "研究"],
-      ["/zh/publications.html", "论文"],
-      ["/zh/upcoming.html", "近期活动"],
-      ["/zh/fun.html", "实验室生活"],
-      ["/zh/support.html", "支持"],
-      ["/zh/join.html", "加入我们"],
-      ["/zh/contact.html", "联系"],
-      ["/index.html", "English"],
-    ];
-
-    if (brand) brand.href = "/zh/index.html";
-    if (brandTitle) brandTitle.textContent = "Feng Lab";
-
-    headerLinks.forEach((link, index) => {
-      const translatedLink = chineseNavigation[index];
-      if (!translatedLink) return;
-      link.href = translatedLink[0];
-      const label = link.querySelector(".menu-text");
-      if (label) label.textContent = translatedLink[1];
-      link.classList.remove("active");
-      link.removeAttribute("aria-current");
-    });
-  }
-
   const chineseNav = document.querySelector(".zh-site-navbar");
   const chineseMenuButton = document.querySelector(".zh-menu-toggle");
 
