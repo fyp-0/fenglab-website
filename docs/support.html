@@ -72,7 +72,7 @@ ul.task-list li input[type="checkbox"] {
     "search-label": "Search"
   }
 }</script>
-<link rel="stylesheet" href="./styles.css?v=20260726-5">
+<link rel="stylesheet" href="./styles.css?v=20260726-6">
 
 
 <link rel="stylesheet" href="styles.css">
@@ -193,6 +193,11 @@ document.addEventListener("DOMContentLoaded", () => {
   const chineseMenuButton = document.querySelector(".zh-menu-toggle");
 
   if (chineseNav && chineseMenuButton) {
+    const pageContent = document.querySelector("#quarto-content");
+    if (pageContent && chineseNav.parentElement !== document.body) {
+      document.body.insertBefore(chineseNav, pageContent);
+    }
+
     chineseMenuButton.addEventListener("click", () => {
       const isOpen = chineseNav.classList.toggle("is-open");
       chineseMenuButton.setAttribute("aria-expanded", String(isOpen));
