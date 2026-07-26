@@ -2099,6 +2099,26 @@ a:focus-visible {
   }
 }
 
+/* Use Quarto's compact one-row navigation on the English homepage too. */
+@media (max-width: 991.98px) {
+  body.home-page:not(.zh-page) #quarto-header {
+    display: block;
+  }
+
+  body.home-page:not(.zh-page) .home-navbar {
+    display: none;
+  }
+
+  body.home-page:not(.zh-page) #quarto-header .navbar-title {
+    color: var(--philosophy-navy);
+    font-family: Baskerville, "Iowan Old Style", "Palatino Linotype", Georgia, serif;
+    font-size: 1.55rem;
+    font-style: italic;
+    font-weight: 700;
+    letter-spacing: -0.045em;
+  }
+}
+
 @media (max-width: 560px) {
   .zh-page .insights-heading h1,
   .zh-page .contact-header h1,
