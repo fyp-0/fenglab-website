@@ -35,4 +35,5 @@ format:
   html:
     theme: cosmo
     css: styles.css
+    include-in-header: _includes/cache-bust-css.html
     toc: false
