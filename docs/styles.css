@@ -2015,17 +2015,26 @@ a:focus-visible {
 }
 
 @media (max-width: 900px) {
+  body.zh-page {
+    padding-top: 60px !important;
+    overflow-x: hidden;
+  }
+
   .zh-site-navbar {
     display: grid !important;
     grid-template-columns: 1fr auto;
-    width: calc(100vw - 36px);
+    position: fixed;
+    inset: 0 0 auto;
+    width: 100%;
     max-width: none;
-    min-height: 0;
-    margin-inline: auto;
-    padding: 0.75rem 0;
+    min-height: 60px;
+    margin: 0;
+    padding: 0.55rem 18px;
     align-items: center;
     gap: 0;
     background: #fff;
+    border-bottom: 1px solid rgba(10, 41, 85, 0.12);
+    box-shadow: 0 2px 10px rgba(10, 41, 85, 0.06);
   }
 
   .zh-site-brand {
@@ -2043,6 +2052,7 @@ a:focus-visible {
     background: transparent;
     align-items: center;
     gap: 0.42rem;
+    justify-self: end;
     font: inherit;
     font-size: 0.92rem;
     cursor: pointer;
@@ -2060,12 +2070,17 @@ a:focus-visible {
 
   .zh-site-links {
     display: none;
-    grid-column: 1 / -1;
+    position: absolute;
+    top: 100%;
+    left: 0;
     width: 100%;
-    padding: 0.8rem 0 0.25rem;
+    padding: 0 18px 0.5rem;
     align-items: stretch;
     gap: 0;
     white-space: normal;
+    background: #fff;
+    border-bottom: 1px solid rgba(10, 41, 85, 0.12);
+    box-shadow: 0 8px 16px rgba(10, 41, 85, 0.1);
   }
 
   .zh-site-navbar.is-open .zh-site-links {
