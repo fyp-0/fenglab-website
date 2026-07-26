@@ -8,21 +8,6 @@ body-classes: "home-page zh-page"
 
 ```{=html}
 <main class="home" aria-labelledby="home-title">
-  <nav class="home-navbar" aria-label="主导航">
-    <div class="home-nav-links">
-      <a href="insights.qmd">洞见</a>
-      <a href="people.qmd">成员</a>
-      <a href="research.qmd">研究</a>
-      <a href="publications.qmd">论文</a>
-      <a href="upcoming.qmd">近期活动</a>
-      <a href="fun.qmd">实验室生活</a>
-      <a href="support.qmd">支持</a>
-      <a href="join.qmd">加入我们</a>
-      <a href="contact.qmd">联系</a>
-      <a href="../index.qmd" lang="en">English</a>
-    </div>
-  </nav>
-
   <h1 id="home-title">Feng Lab</h1>
 
   <section class="home-layout" aria-label="Feng Lab 的使命与科学框架">
