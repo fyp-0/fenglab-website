@@ -1908,6 +1908,14 @@ a:focus-visible {
   display: none;
 }
 
+.en-site-navbar {
+  display: none;
+}
+
+.zh-page .en-site-navbar {
+  display: none !important;
+}
+
 .zh-site-navbar {
   display: flex;
   grid-column: 1 / -1 !important;
@@ -2015,12 +2023,18 @@ a:focus-visible {
 }
 
 @media (max-width: 900px) {
-  body.zh-page {
+  body.zh-page,
+  body:not(.zh-page) {
     padding-top: 60px !important;
     overflow-x: hidden;
   }
 
-  .zh-site-navbar {
+  body:not(.zh-page) #quarto-header {
+    display: none !important;
+  }
+
+  .zh-site-navbar,
+  .en-site-navbar {
     display: grid !important;
     grid-template-columns: 1fr auto;
     position: fixed;
@@ -2038,12 +2052,21 @@ a:focus-visible {
     z-index: 1030;
   }
 
-  .zh-site-brand {
+  .zh-site-brand,
+  .en-site-brand {
     display: block;
     margin: 0;
+    color: var(--philosophy-navy) !important;
+    font-family: Baskerville, "Iowan Old Style", Georgia, serif;
+    font-size: 1.35rem;
+    font-style: italic;
+    font-weight: 700;
+    text-decoration: none;
+    white-space: nowrap;
   }
 
-  .zh-menu-toggle {
+  .zh-menu-toggle,
+  .en-menu-toggle {
     display: inline-flex !important;
     min-height: 42px;
     padding: 0.45rem 0.75rem;
@@ -2059,17 +2082,20 @@ a:focus-visible {
     cursor: pointer;
   }
 
-  .zh-menu-toggle:focus-visible {
+  .zh-menu-toggle:focus-visible,
+  .en-menu-toggle:focus-visible {
     outline: 2px solid var(--philosophy-navy);
     outline-offset: 2px;
   }
 
-  .zh-menu-icon {
+  .zh-menu-icon,
+  .en-menu-icon {
     font-size: 1.15rem;
     line-height: 1;
   }
 
-  .zh-site-links {
+  .zh-site-links,
+  .en-site-links {
     display: none;
     position: absolute;
     top: 100%;
@@ -2084,19 +2110,27 @@ a:focus-visible {
     box-shadow: 0 8px 16px rgba(10, 41, 85, 0.1);
   }
 
-  .zh-site-navbar.is-open .zh-site-links {
+  .zh-site-navbar.is-open .zh-site-links,
+  .en-site-navbar.is-open .en-site-links {
     display: grid;
     grid-template-columns: repeat(2, minmax(0, 1fr));
   }
 
-  .zh-site-links a {
+  .zh-site-links a,
+  .en-site-links a {
     padding: 0.7rem 0.35rem;
     border-top: 1px solid rgba(10, 41, 85, 0.12);
+    color: #111;
     font-size: 0.95rem;
+    text-decoration: none;
   }
 
-  .zh-site-links a.active {
+  .zh-site-links a.active,
+  .en-site-links a.active {
+    color: var(--philosophy-navy);
     font-weight: 700;
+    text-decoration: underline;
+    text-underline-offset: 0.3em;
   }
 }
 

@@ -103,7 +103,7 @@ ul.task-list li input[type="checkbox"] {
     }
   })
   </script>
-<link rel="stylesheet" href="../styles.css?v=20260726-11">
+<link rel="stylesheet" href="../styles.css?v=20260726-12">
 
   <script src="https://cdnjs.cloudflare.com/polyfill/v3/polyfill.min.js?features=es6"></script>
   <script defer="" src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml-full.js" type="text/javascript"></script>
@@ -209,6 +209,25 @@ window.Quarto = {
     <h5 class="quarto-listing-category-title">分类</h5><div class="quarto-listing-category category-default"><div class="category" data-category="">全部 <span class="quarto-category-count">(3)</span></div><div class="category" data-category="JUU2JTk1JUIwJUU2JThEJUFFJUU0JUI4JThFJUU0JUJBJUJBJUU1JUI3JUE1JUU2JTk5JUJBJUU4JTgzJUJE">数据与人工智能 <span class="quarto-category-count">(1)</span></div><div class="category" data-category="JUU2JTk2JUI5JUU2JUIzJTk1">方法 <span class="quarto-category-count">(1)</span></div><div class="category" data-category="JUU3JUEwJTk0JUU3JUE5JUI2JUU3JTkwJTg2JUU1JUJGJUI1">研究理念 <span class="quarto-category-count">(1)</span></div><div class="category" data-category="JUU4JUFFJUJBJUU2JTk2JTg3">论文 <span class="quarto-category-count">(1)</span></div><div class="category" data-category="JUU5JTk4JTg1JUU4JUFGJUJCJUU3JUFDJTk0JUU4JUFFJUIw">阅读笔记 <span class="quarto-category-count">(1)</span></div></div></div>
 <!-- main -->
 <main class="content column-page-left" id="quarto-document-content">
+<nav class="en-site-navbar" aria-label="Primary navigation">
+  <a class="en-site-brand" href="../index.html" aria-label="Feng Lab homepage">Feng Lab</a>
+  <button class="en-menu-toggle" type="button" aria-expanded="false" aria-controls="en-site-links">
+    <span class="en-menu-icon" aria-hidden="true">☰</span>
+    <span>Menu</span>
+  </button>
+  <div class="en-site-links" id="en-site-links">
+    <a href="../insights.html">Insights</a>
+    <a href="../people.html">People</a>
+    <a href="../research.html">Research</a>
+    <a href="../publications.html">Publications</a>
+    <a href="../upcoming.html">Upcoming</a>
+    <a href="../fun.html">Fun</a>
+    <a href="../support.html">Support</a>
+    <a href="../join.html">Join</a>
+    <a href="../contact.html">Contact</a>
+    <a href="../zh/index.html" lang="zh-CN">中文版</a>
+  </div>
+</nav>
 <nav class="zh-site-navbar" aria-label="主导航">
   <a class="zh-site-brand" href="../zh/index.html" aria-label="FengLab 中文首页">FengLab</a>
   <button class="zh-menu-toggle" type="button" aria-expanded="false" aria-controls="zh-site-links">
@@ -392,6 +411,36 @@ FengLab 思想笔记
 </main> <!-- /main -->
 <script>
 document.addEventListener("DOMContentLoaded", () => {
+  const englishNav = document.querySelector(".en-site-navbar");
+  const englishMenuButton = document.querySelector(".en-menu-toggle");
+
+  if (englishNav && englishMenuButton) {
+    const pageContent = document.querySelector("#quarto-content");
+    if (pageContent && englishNav.parentElement !== document.body) {
+      document.body.insertBefore(englishNav, pageContent);
+    }
+
+    englishMenuButton.addEventListener("click", () => {
+      const isOpen = englishNav.classList.toggle("is-open");
+      englishMenuButton.setAttribute("aria-expanded", String(isOpen));
+    });
+
+    englishNav.addEventListener("click", (event) => {
+      if (!event.target.closest(".en-site-links a")) return;
+      englishNav.classList.remove("is-open");
+      englishMenuButton.setAttribute("aria-expanded", "false");
+    });
+
+    document.addEventListener("keydown", (event) => {
+      if (event.key !== "Escape" || !englishNav.classList.contains("is-open")) {
+        return;
+      }
+      englishNav.classList.remove("is-open");
+      englishMenuButton.setAttribute("aria-expanded", "false");
+      englishMenuButton.focus();
+    });
+  }
+
   const chineseNav = document.querySelector(".zh-site-navbar");
   const chineseMenuButton = document.querySelector(".zh-menu-toggle");
 
@@ -430,18 +479,14 @@ document.addEventListener("DOMContentLoaded", () => {
   const currentPath = normalizedPath(window.location.href);
   const navLinks = [
     ...document.querySelectorAll(
-      "#quarto-header .navbar-nav a.nav-link, .zh-site-links a"
+      ".en-site-links a, .zh-site-links a, #quarto-header .navbar-nav a.nav-link"
     ),
   ];
 
-  let activeLink = navLinks.find((link) => link.classList.contains("active"));
-
-  if (!activeLink) {
-    activeLink = navLinks.find(
-      (link) => normalizedPath(link.href) === currentPath
-    );
-    activeLink?.classList.add("active");
-  }
+  let activeLink = navLinks.find(
+    (link) => normalizedPath(link.href) === currentPath
+  );
+  activeLink?.classList.add("active");
 
   if (!activeLink) return;
 

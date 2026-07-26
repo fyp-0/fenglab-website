@@ -37,5 +37,6 @@ format:
   html:
     theme: cosmo
     include-in-header: _includes/cache-bust-css.html
+    include-before-body: _includes/en-nav.html
     include-after-body: _includes/keep-active-nav-visible.html
     toc: false

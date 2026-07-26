@@ -1,5 +1,35 @@
 <script>
 document.addEventListener("DOMContentLoaded", () => {
+  const englishNav = document.querySelector(".en-site-navbar");
+  const englishMenuButton = document.querySelector(".en-menu-toggle");
+
+  if (englishNav && englishMenuButton) {
+    const pageContent = document.querySelector("#quarto-content");
+    if (pageContent && englishNav.parentElement !== document.body) {
+      document.body.insertBefore(englishNav, pageContent);
+    }
+
+    englishMenuButton.addEventListener("click", () => {
+      const isOpen = englishNav.classList.toggle("is-open");
+      englishMenuButton.setAttribute("aria-expanded", String(isOpen));
+    });
+
+    englishNav.addEventListener("click", (event) => {
+      if (!event.target.closest(".en-site-links a")) return;
+      englishNav.classList.remove("is-open");
+      englishMenuButton.setAttribute("aria-expanded", "false");
+    });
+
+    document.addEventListener("keydown", (event) => {
+      if (event.key !== "Escape" || !englishNav.classList.contains("is-open")) {
+        return;
+      }
+      englishNav.classList.remove("is-open");
+      englishMenuButton.setAttribute("aria-expanded", "false");
+      englishMenuButton.focus();
+    });
+  }
+
   const chineseNav = document.querySelector(".zh-site-navbar");
   const chineseMenuButton = document.querySelector(".zh-menu-toggle");
 
@@ -38,18 +68,14 @@ document.addEventListener("DOMContentLoaded", () => {
   const currentPath = normalizedPath(window.location.href);
   const navLinks = [
     ...document.querySelectorAll(
-      "#quarto-header .navbar-nav a.nav-link, .zh-site-links a"
+      ".en-site-links a, .zh-site-links a, #quarto-header .navbar-nav a.nav-link"
     ),
   ];
 
-  let activeLink = navLinks.find((link) => link.classList.contains("active"));
-
-  if (!activeLink) {
-    activeLink = navLinks.find(
-      (link) => normalizedPath(link.href) === currentPath
-    );
-    activeLink?.classList.add("active");
-  }
+  let activeLink = navLinks.find(
+    (link) => normalizedPath(link.href) === currentPath
+  );
+  activeLink?.classList.add("active");
 
   if (!activeLink) return;
 
