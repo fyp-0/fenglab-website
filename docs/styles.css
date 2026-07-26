@@ -1949,6 +1949,7 @@ a:focus-visible {
 
 .zh-site-links a:hover,
 .zh-site-links a:focus-visible,
+.zh-site-links a.active,
 .zh-site-brand:hover,
 .zh-site-brand:focus-visible {
   color: var(--philosophy-navy);

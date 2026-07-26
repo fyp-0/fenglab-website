@@ -73,7 +73,7 @@ ul.task-list li input[type="checkbox"] {
     "search-label": "Search"
   }
 }</script>
-<link rel="stylesheet" href="../../styles.css?v=20260726-2">
+<link rel="stylesheet" href="../../styles.css?v=20260726-3">
 
 
 <link rel="stylesheet" href="../../styles.css">
@@ -238,6 +238,57 @@ ul.task-list li input[type="checkbox"] {
 </section>
 
 </main> <!-- /main -->
+<script>
+document.addEventListener("DOMContentLoaded", () => {
+  const normalizedPath = (value) => {
+    const path = new URL(value, window.location.href).pathname;
+    return path.replace(/\/index\.html$/, "/").replace(/\.html$/, "").replace(/\/$/, "");
+  };
+
+  const currentPath = normalizedPath(window.location.href);
+  const navLinks = [
+    ...document.querySelectorAll(
+      "#quarto-header .navbar-nav a.nav-link, .zh-site-links a"
+    ),
+  ];
+
+  let activeLink = navLinks.find((link) => link.classList.contains("active"));
+
+  if (!activeLink) {
+    activeLink = navLinks.find(
+      (link) => normalizedPath(link.href) === currentPath
+    );
+    activeLink?.classList.add("active");
+  }
+
+  if (!activeLink) return;
+
+  requestAnimationFrame(() => {
+    const scrollContainer = [
+      activeLink.closest(".zh-site-navbar"),
+      activeLink.closest(".navbar-nav-scroll"),
+      activeLink.closest(".navbar-collapse"),
+    ].find(
+      (element) => element && element.scrollWidth > element.clientWidth
+    );
+
+    if (!scrollContainer) return;
+
+    const linkRect = activeLink.getBoundingClientRect();
+    const containerRect = scrollContainer.getBoundingClientRect();
+    const targetLeft =
+      scrollContainer.scrollLeft +
+      linkRect.left -
+      containerRect.left -
+      (scrollContainer.clientWidth - linkRect.width) / 2;
+
+    scrollContainer.scrollTo({
+      left: Math.max(0, targetLeft),
+      behavior: "auto",
+    });
+  });
+});
+</script>
 <script id="quarto-html-after-body" type="application/javascript">
   window.document.addEventListener("DOMContentLoaded", function (event) {
     const icon = "";
