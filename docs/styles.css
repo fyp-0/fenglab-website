@@ -6,6 +6,20 @@
   --page: #ffffff;
 }
 
+/* Let custom page layouts use the full Quarto grid before centering themselves. */
+
+body:is(
+  .home-page,
+  .insights-page,
+  .contact-page,
+  .publications-page,
+  .people-page,
+  .research-page
+) #quarto-content > main.content.column-page {
+  grid-column: 1 / -1 !important;
+  width: 100%;
+}
+
 /* Research — immune baseline to outcome */
 
 .research-page {
