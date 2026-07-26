@@ -2016,7 +2016,6 @@ a:focus-visible {
 
 @media (max-width: 900px) {
   body.zh-page {
-    padding-top: 60px !important;
     overflow-x: hidden;
   }
 
@@ -2101,7 +2100,8 @@ a:focus-visible {
 
 /* Use Quarto's compact one-row navigation on the English homepage too. */
 @media (max-width: 991.98px) {
-  body.home-page:not(.zh-page) #quarto-header {
+  body.home-page:not(.zh-page) #quarto-header,
+  body.zh-page #quarto-header {
     display: block;
   }
 
@@ -2109,7 +2109,12 @@ a:focus-visible {
     display: none;
   }
 
-  body.home-page:not(.zh-page) #quarto-header .navbar-title {
+  body.zh-page .zh-site-navbar {
+    display: none !important;
+  }
+
+  body.home-page:not(.zh-page) #quarto-header .navbar-title,
+  body.home-page.zh-page #quarto-header .navbar-title {
     color: var(--philosophy-navy);
     font-family: Baskerville, "Iowan Old Style", "Palatino Linotype", Georgia, serif;
     font-size: 1.55rem;
